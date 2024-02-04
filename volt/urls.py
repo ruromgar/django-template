@@ -62,6 +62,4 @@ urlpatterns = [
     # Errors
     path("error/404/", views.error_404, name="error_404"),
     path("error/500/", views.error_500, name="error_500"),
-    # Extra
-    path("pages/upgrade-to-pro/", views.upgrade_to_pro, name="upgrade_to_pro"),
 ]

@@ -150,8 +150,3 @@ def error_404(request):
 
 def error_500(request):
     return render(request, "pages/examples/500.html")
-
-
-# Extra
-def upgrade_to_pro(request):
-    return render(request, "pages/upgrade-to-pro.html")
