@@ -102,8 +102,11 @@ def register_view(request):
     if request.method == "POST":
         form = RegistrationForm(request.POST)
         if form.is_valid():
+            user = form.save()
+            user.refresh_from_db()  # load the profile instance created by the signal
+            user.profile.birth_date = form.cleaned_data.get('birth_date')
+            user.save()
             print("Account created successfully!")
-            form.save()
             return redirect("/accounts/login/")
         else:
             print("Registration failed!")

@@ -24,6 +24,12 @@ class RegistrationForm(UserCreationForm):
             attrs={"class": "form-control", "placeholder": "Confirm Password"}
         ),
     )
+    birth_date = forms.DateField(
+        label=_("Birth Date"),
+        widget=forms.DateInput(
+            format=('%Y-%m-%d'),
+            attrs={"class": "form-control", "type": "date", "placeholder": "YYYY-MM-DD"}),
+        help_text='Required. Format: YYYY-MM-DD')
 
     class Meta:
         model = User

@@ -11,8 +11,6 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 """
 
 import os
-import random
-import string
 from pathlib import Path
 from dotenv import load_dotenv
 
@@ -27,7 +25,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = os.environ.get("SECRET_KEY")
 if not SECRET_KEY:
-    SECRET_KEY = "".join(random.choice(string.ascii_lowercase) for i in range(32))
+    # import random
+    # import string
+    # SECRET_KEY = "".join(random.choice(string.ascii_lowercase) for i in range(32))
+    SECRET_KEY = "django-insecure-7fj^9!%kq%k!_q!s!x!%u5$%f5^#%4f&9i!x^!k!q%k!s!x!%u5$%f5^#%4f&9i"
 
 # Render Deployment Code
 DEBUG = "RENDER" not in os.environ
@@ -41,8 +42,8 @@ if RENDER_EXTERNAL_HOSTNAME:
 # Application definition
 
 INSTALLED_APPS = [
-    "volt.apps.VoltConfig",
     "django.contrib.admin",
+    "volt.apps.VoltConfig",
     "django.contrib.auth",
     "django.contrib.contenttypes",
     "django.contrib.sessions",
