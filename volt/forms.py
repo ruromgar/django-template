@@ -9,6 +9,9 @@ from django.contrib.auth.forms import (
 )
 from django.contrib.auth.models import User
 from django.utils.translation import gettext_lazy as _
+import logging
+
+logger = logging.getLogger(__name__)
 
 
 class RegistrationForm(UserCreationForm):

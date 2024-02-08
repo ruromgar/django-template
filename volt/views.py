@@ -15,6 +15,9 @@ from django.contrib.auth.views import (
 from django.contrib.auth import logout
 
 from django.contrib.auth.decorators import login_required
+import logging
+
+logger = logging.getLogger(__name__)
 
 
 # Index
@@ -103,13 +106,13 @@ def register_view(request):
         form = RegistrationForm(request.POST)
         if form.is_valid():
             user = form.save()
-            user.refresh_from_db()  # load the profile instance created by the signal
+            user.refresh_from_db()
             user.profile.birth_date = form.cleaned_data.get('birth_date')
             user.save()
-            print("Account created successfully!")
+            logger.info("Account created successfully!")
             return redirect("/accounts/login/")
         else:
-            print("Registration failed!")
+            logger.info("Registration failed!")
     else:
         form = RegistrationForm()
 
@@ -120,6 +123,14 @@ def register_view(request):
 class UserLoginView(LoginView):
     form_class = LoginForm
     template_name = "accounts/sign-in.html"
+
+    def form_valid(self, form):
+        logger.info(f"Successful login for user: {form.get_user().username}")
+        return super().form_valid(form)
+
+    def form_invalid(self, form):
+        logger.warning("Failed login attempt")
+        return super().form_invalid(form)
 
 
 class UserPasswordChangeView(PasswordChangeView):
