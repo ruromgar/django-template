@@ -1,7 +1,7 @@
 version: '3.8'
 services:
-  nasa_app:
-    container_name: nasa_app
+  ruben_project:
+    container_name: ruben_project
     restart: always
     build:
       context: .
@@ -27,7 +27,7 @@ services:
     networks:
       - web_network
     depends_on: 
-      - nasa_app
+      - ruben_project
 
   db:
     image: postgres:14-alpine
