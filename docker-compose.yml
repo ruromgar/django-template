@@ -26,7 +26,7 @@ services:
       - ./nginx:/etc/nginx/conf.d
     networks:
       - web_network
-    depends_on: 
+    depends_on:
       - ruben_project
 
   db:
@@ -53,4 +53,3 @@ networks:
 
 volumes:
   db:
- 

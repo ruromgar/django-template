@@ -1,15 +1,14 @@
+import logging
+
 from django import forms
-from django.contrib.auth.forms import (
-    UserCreationForm,
-    AuthenticationForm,
-    PasswordChangeForm,
-    UsernameField,
-    PasswordResetForm,
-    SetPasswordForm,
-)
+from django.contrib.auth.forms import AuthenticationForm
+from django.contrib.auth.forms import PasswordChangeForm
+from django.contrib.auth.forms import PasswordResetForm
+from django.contrib.auth.forms import SetPasswordForm
+from django.contrib.auth.forms import UserCreationForm
+from django.contrib.auth.forms import UsernameField
 from django.contrib.auth.models import User
 from django.utils.translation import gettext_lazy as _
-import logging
 
 logger = logging.getLogger(__name__)
 

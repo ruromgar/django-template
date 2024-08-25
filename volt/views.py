@@ -1,21 +1,19 @@
-from django.shortcuts import render, redirect
-from volt.forms import (
-    RegistrationForm,
-    LoginForm,
-    UserPasswordResetForm,
-    UserPasswordChangeForm,
-    UserSetPasswordForm,
-)
-from django.contrib.auth.views import (
-    LoginView,
-    PasswordResetView,
-    PasswordChangeView,
-    PasswordResetConfirmView,
-)
-from django.contrib.auth import logout
-
-from django.contrib.auth.decorators import login_required
 import logging
+
+from django.contrib.auth import logout
+from django.contrib.auth.decorators import login_required
+from django.contrib.auth.views import LoginView
+from django.contrib.auth.views import PasswordChangeView
+from django.contrib.auth.views import PasswordResetConfirmView
+from django.contrib.auth.views import PasswordResetView
+from django.shortcuts import redirect
+from django.shortcuts import render
+
+from volt.forms import LoginForm
+from volt.forms import RegistrationForm
+from volt.forms import UserPasswordChangeForm
+from volt.forms import UserPasswordResetForm
+from volt.forms import UserSetPasswordForm
 
 logger = logging.getLogger(__name__)
 

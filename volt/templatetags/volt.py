@@ -3,10 +3,11 @@
 Copyright (c) 2019 - present AppSeed.us
 """
 import re
+
 from django import template
+from django.contrib.admin.views.main import PAGE_VAR
 from django.utils.html import format_html
 from django.utils.safestring import mark_safe
-from django.contrib.admin.views.main import PAGE_VAR
 
 register = template.Library()
 assignment_tag = (
@@ -62,9 +63,7 @@ def get_admin_setting(context):
 
 @register.simple_tag
 def paginator_number(cl, i):
-    """
-    Generate an individual page index link in a paginated list.
-    """
+    """Generate an individual page index link in a paginated list."""
     if i == cl.paginator.ELLIPSIS:
         return format_html("{} ", cl.paginator.ELLIPSIS)
     elif i == cl.page_num:
