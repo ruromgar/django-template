@@ -7,9 +7,9 @@ import getParentNode from "./getParentNode.js";
 
 function getTrueOffsetParent(element) {
   if (!isHTMLElement(element) || // https://github.com/popperjs/popper-core/issues/837
-  getComputedStyle(element).position === 'fixed') {
-    return null;
-  }
+    getComputedStyle(element).position === 'fixed') {
+      return null;
+    }
 
   return element.offsetParent;
 } // `.offsetParent` reports `null` for fixed elements, while absolute elements

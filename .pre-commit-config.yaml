@@ -9,8 +9,8 @@ repos:
     rev: 3.0.6
     hooks:
       - id: djhtml
-      # - id: djcss
-      # - id: djjs
+      - id: djcss
+      - id: djjs
 
   - repo: https://github.com/asottile/reorder_python_imports
     rev: v2.7.1
@@ -23,11 +23,6 @@ repos:
       - id: flake8
         args: ["--config=setup.cfg"]
         language_version: python3
-
-  # - repo: https://github.com/ambv/black
-  #   rev: 23.3.0
-  #   hooks:
-  #     - id: black
 
   - repo: https://github.com/charliermarsh/ruff-pre-commit
     rev: v0.0.270

@@ -52,7 +52,7 @@
   text-align: center;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
-          user-select: none;
+  user-select: none;
 }
 
 .datepicker-main {
@@ -1053,10 +1053,10 @@ p {
 abbr[title],
 abbr[data-bs-original-title] {
   -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  text-decoration: underline dotted;
   cursor: help;
   -webkit-text-decoration-skip-ink: none;
-          text-decoration-skip-ink: none;
+  text-decoration-skip-ink: none;
 }
 
 address {
@@ -2030,172 +2030,172 @@ progress {
   }
 
   .g-sm-0,
-.gx-sm-0 {
+  .gx-sm-0 {
     --bs-gutter-x: 0;
   }
 
   .g-sm-0,
-.gy-sm-0 {
+  .gy-sm-0 {
     --bs-gutter-y: 0;
   }
 
   .g-sm-1,
-.gx-sm-1 {
+  .gx-sm-1 {
     --bs-gutter-x: 0.25rem;
   }
 
   .g-sm-1,
-.gy-sm-1 {
+  .gy-sm-1 {
     --bs-gutter-y: 0.25rem;
   }
 
   .g-sm-2,
-.gx-sm-2 {
+  .gx-sm-2 {
     --bs-gutter-x: 0.5rem;
   }
 
   .g-sm-2,
-.gy-sm-2 {
+  .gy-sm-2 {
     --bs-gutter-y: 0.5rem;
   }
 
   .g-sm-3,
-.gx-sm-3 {
+  .gx-sm-3 {
     --bs-gutter-x: 1rem;
   }
 
   .g-sm-3,
-.gy-sm-3 {
+  .gy-sm-3 {
     --bs-gutter-y: 1rem;
   }
 
   .g-sm-4,
-.gx-sm-4 {
+  .gx-sm-4 {
     --bs-gutter-x: 1.5rem;
   }
 
   .g-sm-4,
-.gy-sm-4 {
+  .gy-sm-4 {
     --bs-gutter-y: 1.5rem;
   }
 
   .g-sm-5,
-.gx-sm-5 {
+  .gx-sm-5 {
     --bs-gutter-x: 3rem;
   }
 
   .g-sm-5,
-.gy-sm-5 {
+  .gy-sm-5 {
     --bs-gutter-y: 3rem;
   }
 
   .g-sm-6,
-.gx-sm-6 {
+  .gx-sm-6 {
     --bs-gutter-x: 5rem;
   }
 
   .g-sm-6,
-.gy-sm-6 {
+  .gy-sm-6 {
     --bs-gutter-y: 5rem;
   }
 
   .g-sm-7,
-.gx-sm-7 {
+  .gx-sm-7 {
     --bs-gutter-x: 8rem;
   }
 
   .g-sm-7,
-.gy-sm-7 {
+  .gy-sm-7 {
     --bs-gutter-y: 8rem;
   }
 
   .g-sm-8,
-.gx-sm-8 {
+  .gx-sm-8 {
     --bs-gutter-x: 10rem;
   }
 
   .g-sm-8,
-.gy-sm-8 {
+  .gy-sm-8 {
     --bs-gutter-y: 10rem;
   }
 
   .g-sm-9,
-.gx-sm-9 {
+  .gx-sm-9 {
     --bs-gutter-x: 11rem;
   }
 
   .g-sm-9,
-.gy-sm-9 {
+  .gy-sm-9 {
     --bs-gutter-y: 11rem;
   }
 
   .g-sm-10,
-.gx-sm-10 {
+  .gx-sm-10 {
     --bs-gutter-x: 14rem;
   }
 
   .g-sm-10,
-.gy-sm-10 {
+  .gy-sm-10 {
     --bs-gutter-y: 14rem;
   }
 
   .g-sm-11,
-.gx-sm-11 {
+  .gx-sm-11 {
     --bs-gutter-x: 16rem;
   }
 
   .g-sm-11,
-.gy-sm-11 {
+  .gy-sm-11 {
     --bs-gutter-y: 16rem;
   }
 
   .g-sm-12,
-.gx-sm-12 {
+  .gx-sm-12 {
     --bs-gutter-x: 20rem;
   }
 
   .g-sm-12,
-.gy-sm-12 {
+  .gy-sm-12 {
     --bs-gutter-y: 20rem;
   }
 
   .g-sm-sm,
-.gx-sm-sm {
+  .gx-sm-sm {
     --bs-gutter-x: 1rem;
   }
 
   .g-sm-sm,
-.gy-sm-sm {
+  .gy-sm-sm {
     --bs-gutter-y: 1rem;
   }
 
   .g-sm-md,
-.gx-sm-md {
+  .gx-sm-md {
     --bs-gutter-x: 2rem;
   }
 
   .g-sm-md,
-.gy-sm-md {
+  .gy-sm-md {
     --bs-gutter-y: 2rem;
   }
 
   .g-sm-lg,
-.gx-sm-lg {
+  .gx-sm-lg {
     --bs-gutter-x: 4rem;
   }
 
   .g-sm-lg,
-.gy-sm-lg {
+  .gy-sm-lg {
     --bs-gutter-y: 4rem;
   }
 
   .g-sm-xl,
-.gx-sm-xl {
+  .gx-sm-xl {
     --bs-gutter-x: 8rem;
   }
 
   .g-sm-xl,
-.gy-sm-xl {
+  .gy-sm-xl {
     --bs-gutter-y: 8rem;
   }
 }
@@ -2353,172 +2353,172 @@ progress {
   }
 
   .g-md-0,
-.gx-md-0 {
+  .gx-md-0 {
     --bs-gutter-x: 0;
   }
 
   .g-md-0,
-.gy-md-0 {
+  .gy-md-0 {
     --bs-gutter-y: 0;
   }
 
   .g-md-1,
-.gx-md-1 {
+  .gx-md-1 {
     --bs-gutter-x: 0.25rem;
   }
 
   .g-md-1,
-.gy-md-1 {
+  .gy-md-1 {
     --bs-gutter-y: 0.25rem;
   }
 
   .g-md-2,
-.gx-md-2 {
+  .gx-md-2 {
     --bs-gutter-x: 0.5rem;
   }
 
   .g-md-2,
-.gy-md-2 {
+  .gy-md-2 {
     --bs-gutter-y: 0.5rem;
   }
 
   .g-md-3,
-.gx-md-3 {
+  .gx-md-3 {
     --bs-gutter-x: 1rem;
   }
 
   .g-md-3,
-.gy-md-3 {
+  .gy-md-3 {
     --bs-gutter-y: 1rem;
   }
 
   .g-md-4,
-.gx-md-4 {
+  .gx-md-4 {
     --bs-gutter-x: 1.5rem;
   }
 
   .g-md-4,
-.gy-md-4 {
+  .gy-md-4 {
     --bs-gutter-y: 1.5rem;
   }
 
   .g-md-5,
-.gx-md-5 {
+  .gx-md-5 {
     --bs-gutter-x: 3rem;
   }
 
   .g-md-5,
-.gy-md-5 {
+  .gy-md-5 {
     --bs-gutter-y: 3rem;
   }
 
   .g-md-6,
-.gx-md-6 {
+  .gx-md-6 {
     --bs-gutter-x: 5rem;
   }
 
   .g-md-6,
-.gy-md-6 {
+  .gy-md-6 {
     --bs-gutter-y: 5rem;
   }
 
   .g-md-7,
-.gx-md-7 {
+  .gx-md-7 {
     --bs-gutter-x: 8rem;
   }
 
   .g-md-7,
-.gy-md-7 {
+  .gy-md-7 {
     --bs-gutter-y: 8rem;
   }
 
   .g-md-8,
-.gx-md-8 {
+  .gx-md-8 {
     --bs-gutter-x: 10rem;
   }
 
   .g-md-8,
-.gy-md-8 {
+  .gy-md-8 {
     --bs-gutter-y: 10rem;
   }
 
   .g-md-9,
-.gx-md-9 {
+  .gx-md-9 {
     --bs-gutter-x: 11rem;
   }
 
   .g-md-9,
-.gy-md-9 {
+  .gy-md-9 {
     --bs-gutter-y: 11rem;
   }
 
   .g-md-10,
-.gx-md-10 {
+  .gx-md-10 {
     --bs-gutter-x: 14rem;
   }
 
   .g-md-10,
-.gy-md-10 {
+  .gy-md-10 {
     --bs-gutter-y: 14rem;
   }
 
   .g-md-11,
-.gx-md-11 {
+  .gx-md-11 {
     --bs-gutter-x: 16rem;
   }
 
   .g-md-11,
-.gy-md-11 {
+  .gy-md-11 {
     --bs-gutter-y: 16rem;
   }
 
   .g-md-12,
-.gx-md-12 {
+  .gx-md-12 {
     --bs-gutter-x: 20rem;
   }
 
   .g-md-12,
-.gy-md-12 {
+  .gy-md-12 {
     --bs-gutter-y: 20rem;
   }
 
   .g-md-sm,
-.gx-md-sm {
+  .gx-md-sm {
     --bs-gutter-x: 1rem;
   }
 
   .g-md-sm,
-.gy-md-sm {
+  .gy-md-sm {
     --bs-gutter-y: 1rem;
   }
 
   .g-md-md,
-.gx-md-md {
+  .gx-md-md {
     --bs-gutter-x: 2rem;
   }
 
   .g-md-md,
-.gy-md-md {
+  .gy-md-md {
     --bs-gutter-y: 2rem;
   }
 
   .g-md-lg,
-.gx-md-lg {
+  .gx-md-lg {
     --bs-gutter-x: 4rem;
   }
 
   .g-md-lg,
-.gy-md-lg {
+  .gy-md-lg {
     --bs-gutter-y: 4rem;
   }
 
   .g-md-xl,
-.gx-md-xl {
+  .gx-md-xl {
     --bs-gutter-x: 8rem;
   }
 
   .g-md-xl,
-.gy-md-xl {
+  .gy-md-xl {
     --bs-gutter-y: 8rem;
   }
 }
@@ -2676,172 +2676,172 @@ progress {
   }
 
   .g-lg-0,
-.gx-lg-0 {
+  .gx-lg-0 {
     --bs-gutter-x: 0;
   }
 
   .g-lg-0,
-.gy-lg-0 {
+  .gy-lg-0 {
     --bs-gutter-y: 0;
   }
 
   .g-lg-1,
-.gx-lg-1 {
+  .gx-lg-1 {
     --bs-gutter-x: 0.25rem;
   }
 
   .g-lg-1,
-.gy-lg-1 {
+  .gy-lg-1 {
     --bs-gutter-y: 0.25rem;
   }
 
   .g-lg-2,
-.gx-lg-2 {
+  .gx-lg-2 {
     --bs-gutter-x: 0.5rem;
   }
 
   .g-lg-2,
-.gy-lg-2 {
+  .gy-lg-2 {
     --bs-gutter-y: 0.5rem;
   }
 
   .g-lg-3,
-.gx-lg-3 {
+  .gx-lg-3 {
     --bs-gutter-x: 1rem;
   }
 
   .g-lg-3,
-.gy-lg-3 {
+  .gy-lg-3 {
     --bs-gutter-y: 1rem;
   }
 
   .g-lg-4,
-.gx-lg-4 {
+  .gx-lg-4 {
     --bs-gutter-x: 1.5rem;
   }
 
   .g-lg-4,
-.gy-lg-4 {
+  .gy-lg-4 {
     --bs-gutter-y: 1.5rem;
   }
 
   .g-lg-5,
-.gx-lg-5 {
+  .gx-lg-5 {
     --bs-gutter-x: 3rem;
   }
 
   .g-lg-5,
-.gy-lg-5 {
+  .gy-lg-5 {
     --bs-gutter-y: 3rem;
   }
 
   .g-lg-6,
-.gx-lg-6 {
+  .gx-lg-6 {
     --bs-gutter-x: 5rem;
   }
 
   .g-lg-6,
-.gy-lg-6 {
+  .gy-lg-6 {
     --bs-gutter-y: 5rem;
   }
 
   .g-lg-7,
-.gx-lg-7 {
+  .gx-lg-7 {
     --bs-gutter-x: 8rem;
   }
 
   .g-lg-7,
-.gy-lg-7 {
+  .gy-lg-7 {
     --bs-gutter-y: 8rem;
   }
 
   .g-lg-8,
-.gx-lg-8 {
+  .gx-lg-8 {
     --bs-gutter-x: 10rem;
   }
 
   .g-lg-8,
-.gy-lg-8 {
+  .gy-lg-8 {
     --bs-gutter-y: 10rem;
   }
 
   .g-lg-9,
-.gx-lg-9 {
+  .gx-lg-9 {
     --bs-gutter-x: 11rem;
   }
 
   .g-lg-9,
-.gy-lg-9 {
+  .gy-lg-9 {
     --bs-gutter-y: 11rem;
   }
 
   .g-lg-10,
-.gx-lg-10 {
+  .gx-lg-10 {
     --bs-gutter-x: 14rem;
   }
 
   .g-lg-10,
-.gy-lg-10 {
+  .gy-lg-10 {
     --bs-gutter-y: 14rem;
   }
 
   .g-lg-11,
-.gx-lg-11 {
+  .gx-lg-11 {
     --bs-gutter-x: 16rem;
   }
 
   .g-lg-11,
-.gy-lg-11 {
+  .gy-lg-11 {
     --bs-gutter-y: 16rem;
   }
 
   .g-lg-12,
-.gx-lg-12 {
+  .gx-lg-12 {
     --bs-gutter-x: 20rem;
   }
 
   .g-lg-12,
-.gy-lg-12 {
+  .gy-lg-12 {
     --bs-gutter-y: 20rem;
   }
 
   .g-lg-sm,
-.gx-lg-sm {
+  .gx-lg-sm {
     --bs-gutter-x: 1rem;
   }
 
   .g-lg-sm,
-.gy-lg-sm {
+  .gy-lg-sm {
     --bs-gutter-y: 1rem;
   }
 
   .g-lg-md,
-.gx-lg-md {
+  .gx-lg-md {
     --bs-gutter-x: 2rem;
   }
 
   .g-lg-md,
-.gy-lg-md {
+  .gy-lg-md {
     --bs-gutter-y: 2rem;
   }
 
   .g-lg-lg,
-.gx-lg-lg {
+  .gx-lg-lg {
     --bs-gutter-x: 4rem;
   }
 
   .g-lg-lg,
-.gy-lg-lg {
+  .gy-lg-lg {
     --bs-gutter-y: 4rem;
   }
 
   .g-lg-xl,
-.gx-lg-xl {
+  .gx-lg-xl {
     --bs-gutter-x: 8rem;
   }
 
   .g-lg-xl,
-.gy-lg-xl {
+  .gy-lg-xl {
     --bs-gutter-y: 8rem;
   }
 }
@@ -2999,172 +2999,172 @@ progress {
   }
 
   .g-xl-0,
-.gx-xl-0 {
+  .gx-xl-0 {
     --bs-gutter-x: 0;
   }
 
   .g-xl-0,
-.gy-xl-0 {
+  .gy-xl-0 {
     --bs-gutter-y: 0;
   }
 
   .g-xl-1,
-.gx-xl-1 {
+  .gx-xl-1 {
     --bs-gutter-x: 0.25rem;
   }
 
   .g-xl-1,
-.gy-xl-1 {
+  .gy-xl-1 {
     --bs-gutter-y: 0.25rem;
   }
 
   .g-xl-2,
-.gx-xl-2 {
+  .gx-xl-2 {
     --bs-gutter-x: 0.5rem;
   }
 
   .g-xl-2,
-.gy-xl-2 {
+  .gy-xl-2 {
     --bs-gutter-y: 0.5rem;
   }
 
   .g-xl-3,
-.gx-xl-3 {
+  .gx-xl-3 {
     --bs-gutter-x: 1rem;
   }
 
   .g-xl-3,
-.gy-xl-3 {
+  .gy-xl-3 {
     --bs-gutter-y: 1rem;
   }
 
   .g-xl-4,
-.gx-xl-4 {
+  .gx-xl-4 {
     --bs-gutter-x: 1.5rem;
   }
 
   .g-xl-4,
-.gy-xl-4 {
+  .gy-xl-4 {
     --bs-gutter-y: 1.5rem;
   }
 
   .g-xl-5,
-.gx-xl-5 {
+  .gx-xl-5 {
     --bs-gutter-x: 3rem;
   }
 
   .g-xl-5,
-.gy-xl-5 {
+  .gy-xl-5 {
     --bs-gutter-y: 3rem;
   }
 
   .g-xl-6,
-.gx-xl-6 {
+  .gx-xl-6 {
     --bs-gutter-x: 5rem;
   }
 
   .g-xl-6,
-.gy-xl-6 {
+  .gy-xl-6 {
     --bs-gutter-y: 5rem;
   }
 
   .g-xl-7,
-.gx-xl-7 {
+  .gx-xl-7 {
     --bs-gutter-x: 8rem;
   }
 
   .g-xl-7,
-.gy-xl-7 {
+  .gy-xl-7 {
     --bs-gutter-y: 8rem;
   }
 
   .g-xl-8,
-.gx-xl-8 {
+  .gx-xl-8 {
     --bs-gutter-x: 10rem;
   }
 
   .g-xl-8,
-.gy-xl-8 {
+  .gy-xl-8 {
     --bs-gutter-y: 10rem;
   }
 
   .g-xl-9,
-.gx-xl-9 {
+  .gx-xl-9 {
     --bs-gutter-x: 11rem;
   }
 
   .g-xl-9,
-.gy-xl-9 {
+  .gy-xl-9 {
     --bs-gutter-y: 11rem;
   }
 
   .g-xl-10,
-.gx-xl-10 {
+  .gx-xl-10 {
     --bs-gutter-x: 14rem;
   }
 
   .g-xl-10,
-.gy-xl-10 {
+  .gy-xl-10 {
     --bs-gutter-y: 14rem;
   }
 
   .g-xl-11,
-.gx-xl-11 {
+  .gx-xl-11 {
     --bs-gutter-x: 16rem;
   }
 
   .g-xl-11,
-.gy-xl-11 {
+  .gy-xl-11 {
     --bs-gutter-y: 16rem;
   }
 
   .g-xl-12,
-.gx-xl-12 {
+  .gx-xl-12 {
     --bs-gutter-x: 20rem;
   }
 
   .g-xl-12,
-.gy-xl-12 {
+  .gy-xl-12 {
     --bs-gutter-y: 20rem;
   }
 
   .g-xl-sm,
-.gx-xl-sm {
+  .gx-xl-sm {
     --bs-gutter-x: 1rem;
   }
 
   .g-xl-sm,
-.gy-xl-sm {
+  .gy-xl-sm {
     --bs-gutter-y: 1rem;
   }
 
   .g-xl-md,
-.gx-xl-md {
+  .gx-xl-md {
     --bs-gutter-x: 2rem;
   }
 
   .g-xl-md,
-.gy-xl-md {
+  .gy-xl-md {
     --bs-gutter-y: 2rem;
   }
 
   .g-xl-lg,
-.gx-xl-lg {
+  .gx-xl-lg {
     --bs-gutter-x: 4rem;
   }
 
   .g-xl-lg,
-.gy-xl-lg {
+  .gy-xl-lg {
     --bs-gutter-y: 4rem;
   }
 
   .g-xl-xl,
-.gx-xl-xl {
+  .gx-xl-xl {
     --bs-gutter-x: 8rem;
   }
 
   .g-xl-xl,
-.gy-xl-xl {
+  .gy-xl-xl {
     --bs-gutter-y: 8rem;
   }
 }
@@ -3322,172 +3322,172 @@ progress {
   }
 
   .g-xxl-0,
-.gx-xxl-0 {
+  .gx-xxl-0 {
     --bs-gutter-x: 0;
   }
 
   .g-xxl-0,
-.gy-xxl-0 {
+  .gy-xxl-0 {
     --bs-gutter-y: 0;
   }
 
   .g-xxl-1,
-.gx-xxl-1 {
+  .gx-xxl-1 {
     --bs-gutter-x: 0.25rem;
   }
 
   .g-xxl-1,
-.gy-xxl-1 {
+  .gy-xxl-1 {
     --bs-gutter-y: 0.25rem;
   }
 
   .g-xxl-2,
-.gx-xxl-2 {
+  .gx-xxl-2 {
     --bs-gutter-x: 0.5rem;
   }
 
   .g-xxl-2,
-.gy-xxl-2 {
+  .gy-xxl-2 {
     --bs-gutter-y: 0.5rem;
   }
 
   .g-xxl-3,
-.gx-xxl-3 {
+  .gx-xxl-3 {
     --bs-gutter-x: 1rem;
   }
 
   .g-xxl-3,
-.gy-xxl-3 {
+  .gy-xxl-3 {
     --bs-gutter-y: 1rem;
   }
 
   .g-xxl-4,
-.gx-xxl-4 {
+  .gx-xxl-4 {
     --bs-gutter-x: 1.5rem;
   }
 
   .g-xxl-4,
-.gy-xxl-4 {
+  .gy-xxl-4 {
     --bs-gutter-y: 1.5rem;
   }
 
   .g-xxl-5,
-.gx-xxl-5 {
+  .gx-xxl-5 {
     --bs-gutter-x: 3rem;
   }
 
   .g-xxl-5,
-.gy-xxl-5 {
+  .gy-xxl-5 {
     --bs-gutter-y: 3rem;
   }
 
   .g-xxl-6,
-.gx-xxl-6 {
+  .gx-xxl-6 {
     --bs-gutter-x: 5rem;
   }
 
   .g-xxl-6,
-.gy-xxl-6 {
+  .gy-xxl-6 {
     --bs-gutter-y: 5rem;
   }
 
   .g-xxl-7,
-.gx-xxl-7 {
+  .gx-xxl-7 {
     --bs-gutter-x: 8rem;
   }
 
   .g-xxl-7,
-.gy-xxl-7 {
+  .gy-xxl-7 {
     --bs-gutter-y: 8rem;
   }
 
   .g-xxl-8,
-.gx-xxl-8 {
+  .gx-xxl-8 {
     --bs-gutter-x: 10rem;
   }
 
   .g-xxl-8,
-.gy-xxl-8 {
+  .gy-xxl-8 {
     --bs-gutter-y: 10rem;
   }
 
   .g-xxl-9,
-.gx-xxl-9 {
+  .gx-xxl-9 {
     --bs-gutter-x: 11rem;
   }
 
   .g-xxl-9,
-.gy-xxl-9 {
+  .gy-xxl-9 {
     --bs-gutter-y: 11rem;
   }
 
   .g-xxl-10,
-.gx-xxl-10 {
+  .gx-xxl-10 {
     --bs-gutter-x: 14rem;
   }
 
   .g-xxl-10,
-.gy-xxl-10 {
+  .gy-xxl-10 {
     --bs-gutter-y: 14rem;
   }
 
   .g-xxl-11,
-.gx-xxl-11 {
+  .gx-xxl-11 {
     --bs-gutter-x: 16rem;
   }
 
   .g-xxl-11,
-.gy-xxl-11 {
+  .gy-xxl-11 {
     --bs-gutter-y: 16rem;
   }
 
   .g-xxl-12,
-.gx-xxl-12 {
+  .gx-xxl-12 {
     --bs-gutter-x: 20rem;
   }
 
   .g-xxl-12,
-.gy-xxl-12 {
+  .gy-xxl-12 {
     --bs-gutter-y: 20rem;
   }
 
   .g-xxl-sm,
-.gx-xxl-sm {
+  .gx-xxl-sm {
     --bs-gutter-x: 1rem;
   }
 
   .g-xxl-sm,
-.gy-xxl-sm {
+  .gy-xxl-sm {
     --bs-gutter-y: 1rem;
   }
 
   .g-xxl-md,
-.gx-xxl-md {
+  .gx-xxl-md {
     --bs-gutter-x: 2rem;
   }
 
   .g-xxl-md,
-.gy-xxl-md {
+  .gy-xxl-md {
     --bs-gutter-y: 2rem;
   }
 
   .g-xxl-lg,
-.gx-xxl-lg {
+  .gx-xxl-lg {
     --bs-gutter-x: 4rem;
   }
 
   .g-xxl-lg,
-.gy-xxl-lg {
+  .gy-xxl-lg {
     --bs-gutter-y: 4rem;
   }
 
   .g-xxl-xl,
-.gx-xxl-xl {
+  .gx-xxl-xl {
     --bs-gutter-x: 8rem;
   }
 
   .g-xxl-xl,
-.gy-xxl-xl {
+  .gy-xxl-xl {
     --bs-gutter-y: 8rem;
   }
 }
@@ -3732,7 +3732,7 @@ progress {
   background-clip: padding-box;
   border: 0.0625rem solid #D1D5DB;
   -webkit-appearance: none;
-          appearance: none;
+  appearance: none;
   border-radius: 0.5rem;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.07);
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -3909,7 +3909,7 @@ textarea.form-control-lg {
   box-shadow: inset 0 1px 2px rgba(17, 24, 39, 0.0125);
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   -webkit-appearance: none;
-          appearance: none;
+  appearance: none;
 }
 @media (prefers-reduced-motion: reduce) {
   .form-select {
@@ -3972,9 +3972,9 @@ textarea.form-control-lg {
   background-size: contain;
   border: 1px solid #D1D5DB;
   -webkit-appearance: none;
-          appearance: none;
+  appearance: none;
   -webkit-print-color-adjust: exact;
-          color-adjust: exact;
+  color-adjust: exact;
   transition: background-color 0.2s ease-in-out, background-position 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -4066,7 +4066,7 @@ textarea.form-control-lg {
   padding: 0;
   background-color: transparent;
   -webkit-appearance: none;
-          appearance: none;
+  appearance: none;
 }
 .form-range:focus {
   outline: 0;
@@ -4091,7 +4091,7 @@ textarea.form-control-lg {
   -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   -webkit-appearance: none;
-          appearance: none;
+  appearance: none;
 }
 @media (prefers-reduced-motion: reduce) {
   .form-range::-webkit-slider-thumb {
@@ -4472,7 +4472,7 @@ textarea.form-control-lg {
   vertical-align: middle;
   cursor: pointer;
   -webkit-user-select: none;
-          user-select: none;
+  user-select: none;
   background-color: transparent;
   border: 0.0625rem solid transparent;
   padding: 0.5rem 1rem;
@@ -6437,7 +6437,7 @@ textarea.form-control-lg {
     transform: none;
   }
   .navbar-expand-sm .offcanvas-top,
-.navbar-expand-sm .offcanvas-bottom {
+  .navbar-expand-sm .offcanvas-bottom {
     height: auto;
     border-top: 0;
     border-bottom: 0;
@@ -6490,7 +6490,7 @@ textarea.form-control-lg {
     transform: none;
   }
   .navbar-expand-md .offcanvas-top,
-.navbar-expand-md .offcanvas-bottom {
+  .navbar-expand-md .offcanvas-bottom {
     height: auto;
     border-top: 0;
     border-bottom: 0;
@@ -6543,7 +6543,7 @@ textarea.form-control-lg {
     transform: none;
   }
   .navbar-expand-lg .offcanvas-top,
-.navbar-expand-lg .offcanvas-bottom {
+  .navbar-expand-lg .offcanvas-bottom {
     height: auto;
     border-top: 0;
     border-bottom: 0;
@@ -6596,7 +6596,7 @@ textarea.form-control-lg {
     transform: none;
   }
   .navbar-expand-xl .offcanvas-top,
-.navbar-expand-xl .offcanvas-bottom {
+  .navbar-expand-xl .offcanvas-bottom {
     height: auto;
     border-top: 0;
     border-bottom: 0;
@@ -6649,7 +6649,7 @@ textarea.form-control-lg {
     transform: none;
   }
   .navbar-expand-xxl .offcanvas-top,
-.navbar-expand-xxl .offcanvas-bottom {
+  .navbar-expand-xxl .offcanvas-bottom {
     height: auto;
     border-top: 0;
     border-bottom: 0;
@@ -6822,6 +6822,12 @@ textarea.form-control-lg {
   padding: 1.25rem 1.5rem;
 }
 
+.card-body-justify-items {
+  flex: 1 1 auto;
+  padding: 1.25rem 1.5rem;
+  justify-items: center;
+}
+
 .card-title {
   margin-bottom: 0.875rem;
 }
@@ -6923,11 +6929,11 @@ textarea.form-control-lg {
     border-bottom-right-radius: 0;
   }
   .card-group > .card:not(:last-child) .card-img-top,
-.card-group > .card:not(:last-child) .card-header {
+  .card-group > .card:not(:last-child) .card-header {
     border-top-right-radius: 0;
   }
   .card-group > .card:not(:last-child) .card-img-bottom,
-.card-group > .card:not(:last-child) .card-footer {
+  .card-group > .card:not(:last-child) .card-footer {
     border-bottom-right-radius: 0;
   }
   .card-group > .card:not(:first-child) {
@@ -6935,11 +6941,11 @@ textarea.form-control-lg {
     border-bottom-left-radius: 0;
   }
   .card-group > .card:not(:first-child) .card-img-top,
-.card-group > .card:not(:first-child) .card-header {
+  .card-group > .card:not(:first-child) .card-header {
     border-top-left-radius: 0;
   }
   .card-group > .card:not(:first-child) .card-img-bottom,
-.card-group > .card:not(:first-child) .card-footer {
+  .card-group > .card:not(:first-child) .card-footer {
     border-bottom-left-radius: 0;
   }
 }
@@ -8009,7 +8015,7 @@ textarea.form-control-lg {
 .btn-close:disabled, .btn-close.disabled {
   pointer-events: none;
   -webkit-user-select: none;
-          user-select: none;
+  user-select: none;
   opacity: 0.25;
 }
 
@@ -8212,7 +8218,7 @@ textarea.form-control-lg {
 }
 @media (min-width: 992px) {
   .modal-lg,
-.modal-xl {
+  .modal-xl {
     max-width: 800px;
   }
 }
@@ -8610,7 +8616,7 @@ textarea.form-control-lg {
   width: 100%;
   margin-right: -100%;
   -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
   transition: transform 0.6s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -8656,7 +8662,7 @@ textarea.form-control-lg {
 }
 @media (prefers-reduced-motion: reduce) {
   .carousel-fade .active.carousel-item-start,
-.carousel-fade .active.carousel-item-end {
+  .carousel-fade .active.carousel-item-end {
     transition: none;
   }
 }
@@ -8681,7 +8687,7 @@ textarea.form-control-lg {
 }
 @media (prefers-reduced-motion: reduce) {
   .carousel-control-prev,
-.carousel-control-next {
+  .carousel-control-next {
     transition: none;
   }
 }
@@ -8840,7 +8846,7 @@ textarea.form-control-lg {
 
 @media (prefers-reduced-motion: reduce) {
   .spinner-border,
-.spinner-grow {
+  .spinner-grow {
     animation-duration: 1.5s;
   }
 }
@@ -11794,17 +11800,17 @@ textarea.form-control-lg {
 
 .user-select-all {
   -webkit-user-select: all !important;
-          user-select: all !important;
+  user-select: all !important;
 }
 
 .user-select-auto {
   -webkit-user-select: auto !important;
-          user-select: auto !important;
+  user-select: auto !important;
 }
 
 .user-select-none {
   -webkit-user-select: none !important;
-          user-select: none !important;
+  user-select: none !important;
 }
 
 .pe-none {
@@ -11873,77 +11879,77 @@ textarea.form-control-lg {
 
 .blur-0 {
   -webkit-backdrop-filter: blur(0) !important;
-          backdrop-filter: blur(0) !important;
+  backdrop-filter: blur(0) !important;
 }
 
 .blur-1 {
   -webkit-backdrop-filter: blur(1px) !important;
-          backdrop-filter: blur(1px) !important;
+  backdrop-filter: blur(1px) !important;
 }
 
 .blur-2 {
   -webkit-backdrop-filter: blur(2px) !important;
-          backdrop-filter: blur(2px) !important;
+  backdrop-filter: blur(2px) !important;
 }
 
 .blur-3 {
   -webkit-backdrop-filter: blur(3px) !important;
-          backdrop-filter: blur(3px) !important;
+  backdrop-filter: blur(3px) !important;
 }
 
 .blur-4 {
   -webkit-backdrop-filter: blur(4px) !important;
-          backdrop-filter: blur(4px) !important;
+  backdrop-filter: blur(4px) !important;
 }
 
 .blur-5 {
   -webkit-backdrop-filter: blur(5px) !important;
-          backdrop-filter: blur(5px) !important;
+  backdrop-filter: blur(5px) !important;
 }
 
 .blur-6 {
   -webkit-backdrop-filter: blur(6px) !important;
-          backdrop-filter: blur(6px) !important;
+  backdrop-filter: blur(6px) !important;
 }
 
 .blur-7 {
   -webkit-backdrop-filter: blur(7px) !important;
-          backdrop-filter: blur(7px) !important;
+  backdrop-filter: blur(7px) !important;
 }
 
 .blur-8 {
   -webkit-backdrop-filter: blur(8px) !important;
-          backdrop-filter: blur(8px) !important;
+  backdrop-filter: blur(8px) !important;
 }
 
 .blur-9 {
   -webkit-backdrop-filter: blur(91px) !important;
-          backdrop-filter: blur(91px) !important;
+  backdrop-filter: blur(91px) !important;
 }
 
 .blur-10 {
   -webkit-backdrop-filter: blur(10px) !important;
-          backdrop-filter: blur(10px) !important;
+  backdrop-filter: blur(10px) !important;
 }
 
 .blur-11 {
   -webkit-backdrop-filter: blur(11px) !important;
-          backdrop-filter: blur(11px) !important;
+  backdrop-filter: blur(11px) !important;
 }
 
 .blur-12 {
   -webkit-backdrop-filter: blur(12px) !important;
-          backdrop-filter: blur(12px) !important;
+  backdrop-filter: blur(12px) !important;
 }
 
 .blur-13 {
   -webkit-backdrop-filter: blur(13px) !important;
-          backdrop-filter: blur(13px) !important;
+  backdrop-filter: blur(13px) !important;
 }
 
 .blur-14 {
   -webkit-backdrop-filter: blur(14px) !important;
-          backdrop-filter: blur(14px) !important;
+  backdrop-filter: blur(14px) !important;
 }
 
 .z-0 {
@@ -21290,8 +21296,8 @@ textarea.form-control-lg {
 }
 @media (min-width: 992px) {
   .navbar .navbar-nav .dropdown-megamenu,
-.navbar .navbar-nav .dropdown-megamenu-sm,
-.navbar .navbar-nav .dropdown-megamenu-md {
+  .navbar .navbar-nav .dropdown-megamenu-sm,
+  .navbar .navbar-nav .dropdown-megamenu-md {
     min-width: 580px;
   }
 }
@@ -21437,14 +21443,14 @@ textarea.form-control-lg {
     transform: translateX(-50%);
   }
   .navbar-nav .dropdown-menu.show,
-.navbar-nav .dropdown-megamenu.show,
-.navbar-nav .dropdown-megamenu-md.show {
+  .navbar-nav .dropdown-megamenu.show,
+  .navbar-nav .dropdown-megamenu-md.show {
     opacity: 1;
     pointer-events: auto;
   }
   .navbar-nav .dropdown-menu.close,
-.navbar-nav .dropdown-megamenu.close,
-.navbar-nav .dropdown-megamenu-md.close {
+  .navbar-nav .dropdown-megamenu.close,
+  .navbar-nav .dropdown-megamenu-md.close {
     display: block;
   }
   .navbar-nav .dropdown-submenu .dropdown-menu {
@@ -21458,7 +21464,7 @@ textarea.form-control-lg {
     transition: all 0.2s ease;
   }
   .navbar-nav .dropdown.show > .dropdown-menu,
-.navbar-nav .dropdown-submenu.show > .dropdown-menu {
+  .navbar-nav .dropdown-submenu.show > .dropdown-menu {
     display: block;
     opacity: 1;
     pointer-events: auto;
@@ -21547,7 +21553,7 @@ textarea.form-control-lg {
 }
 @media (max-width: 991.98px) {
   .navbar-collapse.collapsing,
-.navbar-collapse.show {
+  .navbar-collapse.show {
     padding: 1.5rem;
     border-radius: 0.35rem;
     background: #ffffff;
@@ -22469,7 +22475,7 @@ label {
 .bell-shake.shaking {
   animation: bellshake 0.5s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
   -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
   transform-origin: top right;
 }
 
@@ -23851,6 +23857,55 @@ label {
   border: 0;
 }
 
+
+/* Info - typically styled with blue */
+.message-info {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid transparent;
+  border-radius: 8px; /* Rounded corners */
+  color: #ffffff; /* White text for all */
+  background-color: #d1ecf1;
+  border-color: #bee5eb;
+  color: #0c5460;
+}
+
+/* Warning - typically styled with yellow or orange */
+.message-warning {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid transparent;
+  border-radius: 8px; /* Rounded corners */
+  color: #ffffff; /* White text for all */
+  background-color: #fff3cd;
+  border-color: #ffeeba;
+  color: #856404;
+}
+
+/* Success - typically styled with green */
+.message-success {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid transparent;
+  border-radius: 8px; /* Rounded corners */
+  color: #ffffff; /* White text for all */
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+  color: #155724;
+}
+
+/* Error - as previously defined, typically styled with red */
+.message-error {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid transparent;
+  border-radius: 8px; /* Rounded corners */
+  color: #ffffff; /* White text for all */
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  color: #721c24;
+}
+
 .customer-testimonial .content-wrapper:before {
   content: "";
   position: absolute;
@@ -24625,7 +24680,7 @@ label {
 .news-list img {
   min-height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 /**
@@ -26192,11 +26247,11 @@ label {
 }
 @media (max-width: 767.98px) {
   .dataTable-top,
-.dataTable-bottom {
+  .dataTable-bottom {
     flex-direction: column;
   }
   .dataTable-top .dataTable-info,
-.dataTable-bottom .dataTable-info {
+  .dataTable-bottom .dataTable-info {
     margin-bottom: 1rem;
   }
 }
@@ -26278,7 +26333,7 @@ label {
   border-radius: 0.5rem;
   box-shadow: inset 0 1px 2px rgba(17, 24, 39, 0.0125);
   -webkit-appearance: none;
-          appearance: none;
+  appearance: none;
 }
 .dataTable-selector:focus {
   border-color: #4d6689;
@@ -26316,7 +26371,7 @@ label {
   background-clip: padding-box;
   border: 0.0625rem solid #D1D5DB;
   -webkit-appearance: none;
-          appearance: none;
+  appearance: none;
   border-radius: 0.5rem;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.07);
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -27047,4 +27102,31 @@ article .h1, article .h2, article .h3, article .h4, article .h5, article .h6 {
 .datepicker-dropdown {
   z-index: 9999;
 }
+
+.helioweb-pie-chart {
+  position: relative;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.helioweb-pie-chart-legend div {
+  display: flex;
+  align-items: center;
+}
+
+.helioweb-pie-chart-legend div div {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
+
+.onboarding::placeholder {
+  font-style: italic;
+  color: #6c757d; /* Bootstrap's text-muted color */
+}
 /*# sourceMappingURL=volt.css.map */
+

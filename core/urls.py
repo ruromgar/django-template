@@ -17,6 +17,10 @@ from django.contrib import admin
 from django.urls import include
 from django.urls import path
 
+
+handler500 = 'volt.views.error_views.error_500'
+handler404 = 'volt.views.error_views.error_404'
+
 urlpatterns = [
     path("", include("home.urls")),
     path("entrary/", admin.site.urls),

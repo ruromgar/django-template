@@ -5,6 +5,9 @@ from volt import views
 
 
 urlpatterns = [
+    # Admin
+    path('admin/generate_invite_codes/', admin_views.generate_invite_codes_view, name='generate_invite_codes'),
+
     # Index
     path("", views.index, name="index"),
     # Pages

@@ -9,7 +9,7 @@
 
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory(require('can-use-dom'), require('simplebar-core')) :
-  typeof define === 'function' && define.amd ? define(['can-use-dom', 'simplebar-core'], factory) :
+    typeof define === 'function' && define.amd ? define(['can-use-dom', 'simplebar-core'], factory) :
   (global = global || self, global.SimpleBar = factory(global.canUseDOM, global.SimpleBar));
 }(this, (function (canUseDOM, SimpleBar) { 'use strict';
 

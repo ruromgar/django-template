@@ -1,0 +1,916 @@
+[
+    {
+        "givenName": "Admin",
+        "familyName": "Adminious",
+        "password": "supersecret",
+        "email": "admin@example.com",
+        "user_info": {
+            "step_A": {"role": "research_scientist", "role_other_info": ""},
+            "step_C": {
+                "phd_awarded_by": "UC3M",
+                "phd_discipline": "Aeronautical Engineering",
+                "phd_received_in": 2010,
+                "phd_thesis_link": "mythesis.com",
+                "phd_thesis_title": "My Thesis"
+            },
+            "step_D": {"user_works_for_nasa": "yes"},
+            "step_J": {
+                "events_as_speaker": "Event 1; Speaker at Event 2",
+                "events_as_organizer": "Event 3; Event 4",
+                "projects_working_on": "Helioweb, Martian S-Web, Mesoscale dynamics in the solar wind, GPS Anomalies Caused by Space Weather",
+                "personal_initiatives": "Pursuing a PhD",
+                "community_initiatives": "Community Outreach Activity 1",
+                "programs_affiliated_to": "Program Science, Director",
+                "other_scientific_activities": "Nothing comes to mind",
+                "questions_being_investigated": "What creates mesoscale solar wind structures?, What creates mesoscale solar wind structures?, What triggers equatorial plasma bubbles?"
+            },
+            "step_K": {
+                "agu_society": "",
+                "ams_society": "general_member",
+                "aps_society": "",
+                "aiaa_society": "contributor",
+                "aas_spd_society": "leader",
+                "affiliated_journals": "Editor at Nature",
+                "affiliated_conferences": "Program Committee at Conference",
+                "affiliated_research_groups": "Director at Lab Group XYZ",
+                "list_previous_affiliations": "yes",
+                "affiliated_groups_outside_work": "Liaison with Google",
+                "affiliated_programs_outside_work": "XYZ at University of Michigan; ABC at UCLA"
+            },
+            "step_L": {
+                "model_name": "YOLO v7",
+                "model_role": "other",
+                "dataset_name": "MNIST",
+                "dataset_role": "creator",
+                "software_name": "",
+                "software_role": "",
+                "instrument_name": "",
+                "instrument_role": "",
+                "analysis_codes_name": "",
+                "analysis_codes_role": "",
+                "model_role_other_info": "Just a user",
+                "dataset_role_other_info": "",
+                "software_role_other_info": "",
+                "instrument_role_other_info": "",
+                "analysis_codes_role_other_info": "",
+                "knowledge_management_tool_name": "",
+                "knowledge_management_tool_role": "",
+                "knowledge_management_tool_role_other_info": ""
+            },
+            "step_M": {
+                "awards_received": "Award at NASA",
+                "events_spoken_at": "Event 1; Event 2",
+                "journals_published_in": "The Astrophysics Journal, 2024",
+                "orgs_received_funding_from": "NASA Roses 2024"
+            },
+            "step_N": {
+                "collaborators": "email1@example.com, email2@example.com, email3@example.com"
+            },
+            "step_O": {
+                "post_doc_definition": "PostDoc Opp",
+                "upcoming_opportunities": [
+                    "collaborations",
+                    "post_doc",
+                    "conference_event_call",
+                    "community_engagement"
+                ],
+                "collaborations_definition": "Collab with Lab 1; Collab with Lab 2;"
+            },
+            "step_P": {
+                "job_opportunities": "",
+                "rfp_opportunities": "",
+                "post_doc_opportunities": "now",
+                "internship_opportunities": "",
+                "journal_call_opportunities": "in_general",
+                "collaboration_opportunities": "in_general",
+                "mentor_menteeship_opportunities": "",
+                "community_engagement_opportunities": "now",
+                "conference_event_call_opportunities": ""
+            },
+            "step_C0": {"user_got_phd": "yes"},
+            "step_D1": {
+                "job_title": "Software Engineer",
+                "nasa_center": [
+                    "glenn_research_center",
+                    "goddard_institute_for_space_studies",
+                    "stennis_space_center"
+                ],
+                "nasa_missions": ["hinode", "interface_region_imaging_spectrograph"],
+                "nasa_programs": "Participant at Program 1, Director; Patient at Program 2",
+                "nasa_initiatives": ["sound_rockets_programs", "cubesats", "other"],
+                "nasa_funding_arms": "Grant recipient, NASA roses; Grant x2, Quantum Stuff",
+                "nasa_infrastructure": [
+                    "spase_metadata",
+                    "community_coordinated_modeling_center",
+                    "other"
+                ],
+                "nasa_former_missions": "Wind Missions",
+                "nasa_internal_groups": ["integrated_space_weather_analysis_team", "other"],
+                "nasa_initiatives_other": "CUBEsats 2",
+                "nasa_infrastructure_other": "SPASE 2",
+                "nasa_internal_groups_other": "Moon to Mars",
+                "what_kind_of_work_does_user": "Mostly coding"
+            },
+            "step_K1": {
+                "previously_affiliated_journals": "Editor at IEEE",
+                "previously_affiliated_conferences": "Organizer at Event",
+                "previously_affiliated_research_groups": "Director at Somewhere",
+                "previously_affiliated_groups_outside_work": "Admin at Center of Heliophysics",
+                "previously_affiliated_programs_outside_work": "Role at TOPs"
+            },
+            "step_final": {},
+            "step_initial": {},
+            "step_B_research_scientist": {
+                "surname": "Strong",
+                "given_name": "Mark",
+                "orcid_link": "orcid_link.com",
+                "github_link": "",
+                "gitlab_link": "",
+                "zenodo_link": "zenodo_link.com",
+                "student_type": "phd_student",
+                "linkedin_link": "linked_link.com",
+                "website_1_link": "website_1.com",
+                "website_2_link": "",
+                "website_3_link": ""
+            },
+            "step_E_research_scientist": {
+                "solar_system_area": ["magnetosphere", "solar_wind", "theoretical"]
+            },
+            "step_F_research_scientist": {
+                "solar_system_area_study_type": ["build_models", "make_instruments"],
+                "solar_system_area_study_type_others": "Coding"
+            },
+            "step_G_research_scientist": {
+                "study_topics": [
+                    "atomic_physics",
+                    "flares",
+                    "high_energy",
+                    "interplanetary_shocks",
+                    "lare",
+                    "solar_wind",
+                    "spectroscopy",
+                    "transition_region"
+                ],
+                "study_topics_others": "Solar Things"
+            },
+            "step_H_research_scientist": {
+                "user_extra_occupations": [
+                    "administration",
+                    "people_management",
+                    "community_organization"
+                ],
+                "user_extra_occupations_others": "Coding"
+            },
+            "step_I_research_scientist": {
+                "tools_used": "Python, Fortran, Softwares",
+                "techniques_used": "Fourier Analysis",
+                "primary_skillset": "Research Scientist",
+                "models_worked_with": "Model 1, Model 2",
+                "instruments_worked_with": "Instrument 1, Instrument 2"
+            }
+        },
+        "is_superuser": true
+      },
+      {
+        "givenName": "Ruben",
+        "familyName": "Romero",
+        "password": "supersecret",
+        "email": "ruben@example.com",
+        "is_superuser": false
+      },
+      {
+        "givenName": "Ellie",
+        "familyName": "Young",
+        "password": "supersecret",
+        "email": "ellie@common-action.org",
+        "user_info": {
+            "StepAForm": {"role": "research_scientist", "role_other_info": ""},
+            "StepDForm": {"user_works_for_nasa": "no"},
+            "StepJForm": {
+                "pretty_printed": {
+                    "Programs": ["Founder at Common Action"],
+                    "Projects": ["Helioweb"],
+                    "Initiatives": [
+                        "Designing Helioweb pilot, developing phenomena ontology for heliophysics interactions"
+                    ],
+                    "Science Questions": [
+                        "How can communication technologies be redesigned to support complex coordination within social ecologies?"
+                    ],
+                    "Events as Organizer": ["two sessions at AGU"],
+                    "Other Scientific Activities": [
+                        "Writing a paper about design of Helioweb platform with Aleida Higginson"
+                    ]
+                },
+                "events_as_speaker": "",
+                "events_as_organizer": "two sessions at AGU",
+                "projects_working_on": "Helioweb",
+                "personal_initiatives": "Designing Helioweb pilot, developing phenomena ontology for heliophysics interactions",
+                "community_initiatives": "",
+                "programs_affiliated_to": "Founder at Common Action",
+                "other_scientific_activities": "Writing a paper about design of Helioweb platform with Aleida Higginson",
+                "questions_being_investigated": "How can communication technologies be redesigned to support complex coordination within social ecologies?"
+            },
+            "StepKForm": {
+                "agu_society": "general_member",
+                "ams_society": "",
+                "aps_society": "",
+                "aiaa_society": "",
+                "aas_spd_society": "",
+                "affiliated_journals": "",
+                "affiliated_conferences": "",
+                "affiliated_research_groups": "",
+                "list_previous_affiliations": "yes",
+                "affiliated_groups_outside_work": "",
+                "affiliated_programs_outside_work": ""
+            },
+            "StepLForm": {
+                "model_name": "",
+                "model_role": "",
+                "dataset_name": "",
+                "dataset_role": "",
+                "software_name": "",
+                "software_role": "",
+                "pretty_printed": {},
+                "instrument_name": "",
+                "instrument_role": "",
+                "analysis_codes_name": "",
+                "analysis_codes_role": "",
+                "model_role_other_info": "",
+                "dataset_role_other_info": "",
+                "software_role_other_info": "",
+                "instrument_role_other_info": "",
+                "analysis_codes_role_other_info": "",
+                "knowledge_management_tool_name": "",
+                "knowledge_management_tool_role": "",
+                "knowledge_management_tool_role_other_info": ""
+            },
+            "StepMForm": {
+                "pretty_printed": {
+                    "Events Spoken At": ["KGC, 2021", "KGC, 2022", "AGU 2023", "KDD 2022"],
+                    "Journal Publications": ["Applied Computing and Geosciences"],
+                    "Received Funding From": ["NASA (2023-2024)"]
+                },
+                "awards_received": "",
+                "events_spoken_at": "KGC, 2021; KGC, 2022; AGU 2023; KDD 2022",
+                "journals_published_in": "Applied Computing and Geosciences",
+                "orgs_received_funding_from": "NASA (2023-2024)"
+            },
+            "StepNForm": {
+                "collaborators": "aleida.k.higginson@nasa.gov, ryan.m.mcgranaghan@jpl.nasa.gov"
+            },
+            "StepOForm": {"pretty_printed": {}, "upcoming_opportunities": []},
+            "StepPForm": {
+                "job_opportunities": "",
+                "rfp_opportunities": "now",
+                "post_doc_opportunities": "",
+                "internship_opportunities": "",
+                "journal_call_opportunities": "in_general",
+                "collaboration_opportunities": "",
+                "mentor_menteeship_opportunities": "",
+                "community_engagement_opportunities": "",
+                "conference_event_call_opportunities": "in_general"
+            },
+            "StepD2Form": {
+                "non_nasa_groups_affiliated_with": "",
+                "non_nasa_other_affiliation_info": "",
+                "non_nasa_infrastructure_affiliated_with": ""
+            },
+            "StepK1Form": {
+                "previously_affiliated_journals": "",
+                "previously_affiliated_conferences": "Director of Conference at The Knowledge Graph Conference",
+                "previously_affiliated_research_groups": "",
+                "previously_affiliated_groups_outside_work": "",
+                "previously_affiliated_programs_outside_work": ""
+            },
+            "StepEmptyForm": {},
+            "StepB_ResearchScientist_Form": {
+                "surname": "Young",
+                "job_title": "Founder",
+                "given_name": "Ellie",
+                "orcid_link": "https://orcid.org/0009-0001-5029-2852",
+                "github_link": "https://github.com/commonaction",
+                "gitlab_link": "",
+                "zenodo_link": "",
+                "student_type": "early_career",
+                "employer_name": "Common Action",
+                "linkedin_link": "https://www.linkedin.com/in/sellieyoung/",
+                "place_of_work": "",
+                "website_1_link": "http://www.common-action.org",
+                "website_2_link": "",
+                "website_3_link": ""
+            },
+            "StepC_ResearchScientist_Form": {},
+            "StepE_ResearchScientist_Form": {
+                "pretty_printed": {"Studies": []},
+                "solar_system_area": []
+            },
+            "StepF_ResearchScientist_Form": {
+                "pretty_printed": {"Methods": []},
+                "solar_system_area_study_type": [],
+                "solar_system_area_study_type_others": ""
+            },
+            "StepG_ResearchScientist_Form": {
+                "study_topics": [],
+                "pretty_printed": {"Topics": []},
+                "study_topics_others": ""
+            },
+            "StepH_ResearchScientist_Form": {
+                "user_extra_occupations": [
+                    "knowledge_management",
+                    "people_management",
+                    "software_development",
+                    "community_organization",
+                    "event_organization"
+                ],
+                "user_extra_occupations_others": ""
+            },
+            "StepI_ResearchScientist_Form": {
+                "tools_used": "design thinking, ontologies, knowledge graphs, ethnography, UX/UI design",
+                "pretty_printed": {
+                    "Tools": [
+                        "design thinking, ontologies, knowledge graphs, ethnography, UX/UI design"
+                    ],
+                    "Skillset": ["Design for complex social ecologies and communities"]
+                },
+                "techniques_used": "",
+                "primary_skillset": "Design for complex social ecologies and communities",
+                "models_worked_with": "",
+                "instruments_worked_with": ""
+            }
+        },
+        "is_superuser": false
+      },
+      {
+        "givenName": "Ellie",
+        "familyName": "Young",
+        "password": "supersecret",
+        "email": "ellie@example.com",
+        "user_info": {
+            "StepAForm": {"role": "research_scientist", "role_other_info": ""},
+            "StepDForm": {"user_works_for_nasa": "no"},
+            "StepJForm": {
+                "pretty_printed": {
+                    "Programs": ["Founder at Common Action"],
+                    "Projects": ["Helioweb"],
+                    "Initiatives": [
+                        "Designing Helioweb pilot, developing phenomena ontology for heliophysics interactions"
+                    ],
+                    "Science Questions": [
+                        "How can communication technologies be redesigned to support complex coordination within social ecologies?"
+                    ],
+                    "Events as Organizer": ["two sessions at AGU"],
+                    "Other Scientific Activities": [
+                        "Writing a paper about design of Helioweb platform with Aleida Higginson"
+                    ]
+                },
+                "events_as_speaker": "",
+                "events_as_organizer": "two sessions at AGU",
+                "projects_working_on": "Helioweb",
+                "personal_initiatives": "Designing Helioweb pilot, developing phenomena ontology for heliophysics interactions",
+                "community_initiatives": "",
+                "programs_affiliated_to": "Founder at Common Action",
+                "other_scientific_activities": "Writing a paper about design of Helioweb platform with Aleida Higginson",
+                "questions_being_investigated": "How can communication technologies be redesigned to support complex coordination within social ecologies?"
+            },
+            "StepKForm": {
+                "agu_society": "general_member",
+                "ams_society": "",
+                "aps_society": "",
+                "aiaa_society": "",
+                "aas_spd_society": "",
+                "affiliated_journals": "",
+                "affiliated_conferences": "",
+                "affiliated_research_groups": "",
+                "list_previous_affiliations": "yes",
+                "affiliated_groups_outside_work": "",
+                "affiliated_programs_outside_work": ""
+            },
+            "StepLForm": {
+                "model_name": "",
+                "model_role": "",
+                "dataset_name": "",
+                "dataset_role": "",
+                "software_name": "",
+                "software_role": "",
+                "pretty_printed": {},
+                "instrument_name": "",
+                "instrument_role": "",
+                "analysis_codes_name": "",
+                "analysis_codes_role": "",
+                "model_role_other_info": "",
+                "dataset_role_other_info": "",
+                "software_role_other_info": "",
+                "instrument_role_other_info": "",
+                "analysis_codes_role_other_info": "",
+                "knowledge_management_tool_name": "",
+                "knowledge_management_tool_role": "",
+                "knowledge_management_tool_role_other_info": ""
+            },
+            "StepMForm": {
+                "pretty_printed": {
+                    "Events Spoken At": ["KGC, 2021", "KGC, 2022", "AGU 2023", "KDD 2022"],
+                    "Journal Publications": ["Applied Computing and Geosciences"],
+                    "Received Funding From": ["NASA (2023-2024)"]
+                },
+                "awards_received": "",
+                "events_spoken_at": "KGC, 2021; KGC, 2022; AGU 2023; KDD 2022",
+                "journals_published_in": "Applied Computing and Geosciences",
+                "orgs_received_funding_from": "NASA (2023-2024)"
+            },
+            "StepNForm": {
+                "collaborators": "aleida.k.higginson@nasa.gov, ryan.m.mcgranaghan@jpl.nasa.gov"
+            },
+            "StepOForm": {"pretty_printed": {}, "upcoming_opportunities": []},
+            "StepPForm": {
+                "job_opportunities": "",
+                "rfp_opportunities": "now",
+                "post_doc_opportunities": "",
+                "internship_opportunities": "",
+                "journal_call_opportunities": "in_general",
+                "collaboration_opportunities": "",
+                "mentor_menteeship_opportunities": "",
+                "community_engagement_opportunities": "",
+                "conference_event_call_opportunities": "in_general"
+            },
+            "StepD2Form": {
+                "non_nasa_groups_affiliated_with": "",
+                "non_nasa_other_affiliation_info": "",
+                "non_nasa_infrastructure_affiliated_with": ""
+            },
+            "StepK1Form": {
+                "previously_affiliated_journals": "",
+                "previously_affiliated_conferences": "Director of Conference at The Knowledge Graph Conference",
+                "previously_affiliated_research_groups": "",
+                "previously_affiliated_groups_outside_work": "",
+                "previously_affiliated_programs_outside_work": ""
+            },
+            "StepEmptyForm": {},
+            "StepB_ResearchScientist_Form": {
+                "surname": "Young",
+                "job_title": "Founder",
+                "given_name": "Ellie",
+                "orcid_link": "https://orcid.org/0009-0001-5029-2852",
+                "github_link": "https://github.com/commonaction",
+                "gitlab_link": "",
+                "zenodo_link": "",
+                "student_type": "early_career",
+                "employer_name": "Common Action",
+                "linkedin_link": "https://www.linkedin.com/in/sellieyoung/",
+                "place_of_work": "",
+                "website_1_link": "http://www.common-action.org",
+                "website_2_link": "",
+                "website_3_link": ""
+            },
+            "StepC_ResearchScientist_Form": {},
+            "StepE_ResearchScientist_Form": {
+                "pretty_printed": {"Studies": []},
+                "solar_system_area": []
+            },
+            "StepF_ResearchScientist_Form": {
+                "pretty_printed": {"Methods": []},
+                "solar_system_area_study_type": [],
+                "solar_system_area_study_type_others": ""
+            },
+            "StepG_ResearchScientist_Form": {
+                "study_topics": [],
+                "pretty_printed": {"Topics": []},
+                "study_topics_others": ""
+            },
+            "StepH_ResearchScientist_Form": {
+                "user_extra_occupations": [
+                    "knowledge_management",
+                    "people_management",
+                    "software_development",
+                    "community_organization",
+                    "event_organization"
+                ],
+                "user_extra_occupations_others": ""
+            },
+            "StepI_ResearchScientist_Form": {
+                "tools_used": "design thinking, ontologies, knowledge graphs, ethnography, UX/UI design",
+                "pretty_printed": {
+                    "Tools": [
+                        "design thinking, ontologies, knowledge graphs, ethnography, UX/UI design"
+                    ],
+                    "Skillset": ["Design for complex social ecologies and communities"]
+                },
+                "techniques_used": "",
+                "primary_skillset": "Design for complex social ecologies and communities",
+                "models_worked_with": "",
+                "instruments_worked_with": ""
+            }
+        },
+        "is_superuser": false
+      },
+      {
+        "givenName": "Example",
+        "familyName": "Scientist",
+        "password": "supersecret",
+        "email": "examplescientist@example.com",
+        "user_info": {
+            "StepAForm": {"role": "research_scientist", "role_other_info": ""},
+            "StepDForm": {"user_works_for_nasa": "yes"},
+            "StepJForm": {
+                "pretty_printed": {
+                    "Programs": ["Director, Lab 1", "Mentor, Lab 2"],
+                    "Projects": ["Martian S-Web"],
+                    "Initiatives": ["Pursuing a PhD"],
+                    "Events as Speaker": ["Event 1", "Speaker at Event 2"],
+                    "Science Questions": ["What heats the solar corona?"],
+                    "Community Outreach": ["Community Outreach Activity 1"],
+                    "Other Scientific Activities": ["Other Scientific Activity"]
+                },
+                "events_as_speaker": "Event 1; Speaker at Event 2",
+                "events_as_organizer": "",
+                "projects_working_on": "Martian S-Web",
+                "personal_initiatives": "Pursuing a PhD",
+                "community_initiatives": "Community Outreach Activity 1",
+                "programs_affiliated_to": "Director, Lab 1; Mentor, Lab 2",
+                "other_scientific_activities": "Other Scientific Activity",
+                "questions_being_investigated": "What heats the solar corona?"
+            },
+            "StepKForm": {
+                "agu_society": "",
+                "ams_society": "",
+                "aps_society": "",
+                "aiaa_society": "",
+                "aas_spd_society": "contributor",
+                "affiliated_journals": "Editor at Nature",
+                "affiliated_conferences": "Program Committee at Conference",
+                "affiliated_research_groups": "Director at Lab Group XYZ",
+                "list_previous_affiliations": "no",
+                "affiliated_groups_outside_work": "Liaison with Google",
+                "affiliated_programs_outside_work": "XYZ at University of Michigan; ABC at UCLA"
+            },
+            "StepLForm": {
+                "model_name": "YOLO v7",
+                "model_role": "other",
+                "dataset_name": "MNIST",
+                "dataset_role": "creator",
+                "software_name": "",
+                "software_role": "",
+                "pretty_printed": {
+                    "Models": ["YOLO v7, Ambassador"],
+                    "Datasets": ["MNIST, Creator"]
+                },
+                "instrument_name": "",
+                "instrument_role": "",
+                "analysis_codes_name": "",
+                "analysis_codes_role": "",
+                "model_role_other_info": "Ambassador",
+                "dataset_role_other_info": "",
+                "software_role_other_info": "",
+                "instrument_role_other_info": "",
+                "analysis_codes_role_other_info": "",
+                "knowledge_management_tool_name": "",
+                "knowledge_management_tool_role": "",
+                "knowledge_management_tool_role_other_info": ""
+            },
+            "StepMForm": {
+                "pretty_printed": {
+                    "Awards Received": ["Quantum World Champion"],
+                    "Journal Publications": ["Astrophysics Journal 2024"],
+                    "Received Funding From": ["NASA Roses 2024"]
+                },
+                "awards_received": "Quantum World Champion",
+                "events_spoken_at": "",
+                "journals_published_in": "Astrophysics Journal 2024",
+                "orgs_received_funding_from": "NASA Roses 2024"
+            },
+            "StepNForm": {"collaborators": ""},
+            "StepOForm": {
+                "job_definition": "Internship at Lab",
+                "pretty_printed": {
+                    "Job": ["Internship at Lab"],
+                    "Journal Call": [],
+                    "Collaboration Opportunities": ["Collab with Lab 1", "Collab with Lab 2;"],
+                    "Conference/Event Call": []
+                },
+                "upcoming_opportunities": [
+                    "collaborations",
+                    "job",
+                    "journal_call",
+                    "conference_event_call"
+                ],
+                "collaborations_definition": "Collab with Lab 1; Collab with Lab 2;"
+            },
+            "StepPForm": {
+                "job_opportunities": "now",
+                "rfp_opportunities": "",
+                "post_doc_opportunities": "",
+                "internship_opportunities": "",
+                "journal_call_opportunities": "",
+                "collaboration_opportunities": "",
+                "mentor_menteeship_opportunities": "",
+                "community_engagement_opportunities": "now",
+                "conference_event_call_opportunities": ""
+            },
+            "StepD1Form": {
+                "nasa_center": [
+                    "nasa_headquarters",
+                    "mission_support",
+                    "ames_research_center",
+                    "armstrong_flight_research_center"
+                ],
+                "nasa_missions": [
+                    "ionospheric_connection_explorer",
+                    "juno",
+                    "magnetospheric_multiscale_satellites"
+                ],
+                "nasa_programs": "Living With A Star",
+                "pretty_printed": {
+                    "NASA Centers": [
+                        "NASA Headquarters",
+                        "Mission Support",
+                        "Ames Research Center",
+                        "Armstrong Flight Research Center"
+                    ],
+                    "NASA Missions": [
+                        "Ionospheric Connection Explorer (ICON)",
+                        "Juno",
+                        "Magnetospheric Multiscale Satellites (MMS)"
+                    ],
+                    "NASA Programs": ["Living With A Star"],
+                    "NASA Initiatives": ["Sound Rockets Programs", "Cubesats"],
+                    "NASA Funding Arms": [
+                        "Grant recipient, NASA roses",
+                        "Grant x2, Quantum Stuff"
+                    ],
+                    "NASA Infrastructure": [
+                        "SPASE Metadata",
+                        "Heliophysics Digital Resource Library",
+                        "Community Coordinated Modeling Center"
+                    ]
+                },
+                "nasa_initiatives": ["sound_rockets_programs", "cubesats"],
+                "nasa_funding_arms": "Grant recipient, NASA roses; Grant x2, Quantum Stuff",
+                "nasa_infrastructure": [
+                    "spase_metadata",
+                    "heliophysics_digital_resource_library",
+                    "community_coordinated_modeling_center"
+                ],
+                "nasa_former_missions": ["TBD"],
+                "nasa_internal_groups": ["center_for_helioanalytics", "moon_to_mars_office"],
+                "pretty_printed_groups": {
+                    "Groups": ["Center for HelioAnalytics", "Moon to Mars Office"]
+                },
+                "nasa_initiatives_other": "Another initiative",
+                "nasa_internal_groups_other": ""
+            },
+            "StepEmptyForm": {},
+            "StepB_ResearchScientist_Form": {
+                "surname": "Scientist",
+                "job_title": "Scientist",
+                "given_name": "Example",
+                "orcid_link": "",
+                "github_link": "",
+                "gitlab_link": "",
+                "zenodo_link": "",
+                "student_type": "early_career",
+                "employer_name": "NASA",
+                "linkedin_link": "",
+                "place_of_work": "NASA Goddard Space Flight Center",
+                "website_1_link": "",
+                "website_2_link": "",
+                "website_3_link": ""
+            },
+            "StepC_ResearchScientist_Form": {},
+            "StepE_ResearchScientist_Form": {
+                "pretty_printed": {"Studies": ["Solar", "Solar Wind", "Neutral Atmosphere"]},
+                "solar_system_area": ["solar", "solar_wind", "neutral_atmosphere"]
+            },
+            "StepF_ResearchScientist_Form": {
+                "pretty_printed": {"Methods": ["Build Models", "Make Instruments"]},
+                "solar_system_area_study_type": ["build_models", "make_instruments"],
+                "solar_system_area_study_type_others": ""
+            },
+            "StepG_ResearchScientist_Form": {
+                "study_topics": [
+                    "arms",
+                    "cmes",
+                    "high_energy",
+                    "in_situ_observations",
+                    "interplanetary_shocks"
+                ],
+                "pretty_printed": {
+                    "Topics": [
+                        "ARMS",
+                        "CMEs",
+                        "High-energy (X-Rays/Gamma-rays)",
+                        "In Situ Observations",
+                        "Interplanetary Shocks"
+                    ]
+                },
+                "study_topics_others": ""
+            },
+            "StepH_ResearchScientist_Form": {
+                "user_extra_occupations": ["policy", "people_management"],
+                "user_extra_occupations_others": ""
+            },
+            "StepI_ResearchScientist_Form": {
+                "tools_used": "Python again",
+                "pretty_printed": {
+                    "Tools": ["Python again"],
+                    "Models": ["MNIST"],
+                    "Skillset": ["Research Scientist"],
+                    "Techniques": ["Fourier Analysis"]
+                },
+                "techniques_used": "Fourier Analysis",
+                "primary_skillset": "Research Scientist",
+                "models_worked_with": "MNIST",
+                "instruments_worked_with": ""
+            }
+          },
+        "is_superuser": false
+      },
+      {
+        "givenName": "Aleida",
+        "familyName": "Higginson",
+        "password": "supersecret",
+        "email": "aleida@example.com",
+        "user_info": {
+            "StepAForm": {"role": "research_scientist", "role_other_info": ""},
+            "StepDForm": {"user_works_for_nasa": "yes"},
+            "StepJForm": {
+                "pretty_printed": {
+                    "Projects": ["Martian S-Web"],
+                    "Initiatives": ["Writing a paper on Helioweb design with Ellie Young"],
+                    "Events as Speaker": ["Event 1", "Speaker at Event 2"],
+                    "Science Questions": ["What heats the solar corona?"],
+                    "Community Outreach": ["Community Outreach Activity 1"],
+                    "Other Scientific Activities": ["Other Scientific Activity"]
+                },
+                "events_as_speaker": "Event 1; Speaker at Event 2",
+                "events_as_organizer": "",
+                "projects_working_on": "Martian S-Web",
+                "personal_initiatives": "Writing a paper on Helioweb design with Ellie Young",
+                "community_initiatives": "Community Outreach Activity 1",
+                "other_scientific_activities": "Other Scientific Activity",
+                "questions_being_investigated": "What heats the solar corona?"
+            },
+            "StepKForm": {
+                "agu_society": "",
+                "ams_society": "",
+                "aps_society": "",
+                "aiaa_society": "",
+                "aas_spd_society": "contributor",
+                "affiliated_journals": "Editor at Nature",
+                "affiliated_conferences": "Program Committee at Conference",
+                "affiliated_research_groups": "Director at Lab Group XYZ",
+                "list_previous_affiliations": "no",
+                "affiliated_groups_outside_work": "Liaison with Google",
+                "affiliated_programs_outside_work": "XYZ at University of Michigan; ABC at UCLA"
+            },
+            "StepLForm": {
+                "model_name": "ARMS",
+                "model_role": "other",
+                "dataset_name": "",
+                "dataset_role": "",
+                "software_name": "",
+                "software_role": "",
+                "pretty_printed": {
+                    "Models": ["ARMS, Maintainer"]
+                },
+                "instrument_name": "",
+                "instrument_role": "",
+                "analysis_codes_name": "",
+                "analysis_codes_role": "",
+                "model_role_other_info": "Maintainer",
+                "dataset_role_other_info": "",
+                "software_role_other_info": "",
+                "instrument_role_other_info": "",
+                "analysis_codes_role_other_info": "",
+                "knowledge_management_tool_name": "",
+                "knowledge_management_tool_role": "",
+                "knowledge_management_tool_role_other_info": ""
+            },
+            "StepMForm": {
+                "pretty_printed": {
+                    "Journal Publications": ["Astrophysics Journal 2024"],
+                    "Received Funding From": ["NASA Roses 2024"]
+                },
+                "awards_received": "",
+                "events_spoken_at": "",
+                "journals_published_in": "Astrophysics Journal 2024",
+                "orgs_received_funding_from": "NASA Roses 2024"
+            },
+            "StepNForm": {"collaborators": "ellie@common-action.com"},
+            "StepOForm": {
+                "job_definition": "Internship Opportunity on <Project>",
+                "pretty_printed": {
+                    "Job": ["Internship Opportunity on <Project>"],
+                    "Journal Call": [],
+                    "Collaboration Opportunities": ["Collab with Lab 1", "Collab with Lab 2;"],
+                    "Conference/Event Call": []
+                },
+                "upcoming_opportunities": [
+                    "collaborations",
+                    "job",
+                    "journal_call",
+                    "conference_event_call"
+                ],
+                "collaborations_definition": "Collab with Lab 1; Collab with Lab 2;"
+            },
+            "StepPForm": {
+                "job_opportunities": "now",
+                "rfp_opportunities": "",
+                "post_doc_opportunities": "",
+                "internship_opportunities": "",
+                "journal_call_opportunities": "",
+                "collaboration_opportunities": "",
+                "mentor_menteeship_opportunities": "",
+                "community_engagement_opportunities": "now",
+                "conference_event_call_opportunities": ""
+            },
+            "StepD1Form": {
+                "nasa_center": [
+                    "goddard_space_flight_center"
+                ],
+                "pretty_printed": {
+                    "NASA Centers": [
+                        "Goddard Space Flight Center"
+                    ]
+                },
+                "nasa_initiatives": ["sound_rockets_programs", "cubesats"],
+                "nasa_funding_arms": "Grant recipient, NASA roses; Grant x2, Quantum Stuff",
+                "nasa_infrastructure": [
+                    "spase_metadata",
+                    "heliophysics_digital_resource_library",
+                    "community_coordinated_modeling_center"
+                ],
+                "nasa_former_missions": ["TBD"],
+                "nasa_internal_groups": ["center_for_helioanalytics", "moon_to_mars_office"],
+                "pretty_printed_groups": {
+                    "Groups": ["Center for HelioAnalytics", "Moon to Mars Office"]
+                },
+                "nasa_initiatives_other": "Another initiative",
+                "nasa_internal_groups_other": ""
+            },
+            "StepEmptyForm": {},
+            "StepB_ResearchScientist_Form": {
+                "surname": "Higginson",
+                "job_title": "Supervisory Research Astrophysicist",
+                "given_name": "Aleida",
+                "orcid_link": "",
+                "github_link": "",
+                "gitlab_link": "",
+                "zenodo_link": "",
+                "student_type": "early_career",
+                "employer_name": "NASA",
+                "linkedin_link": "",
+                "place_of_work": "Goddard Space Flight Center",
+                "website_1_link": "",
+                "website_2_link": "",
+                "website_3_link": ""
+            },
+            "StepC_ResearchScientist_Form": {
+                "phd_awarded_by": "University of Michigan",
+                "phd_discipline": "Atmospheric, Oceanic and Space Sciences",
+                "phd_received_in": 2016,
+                "phd_thesis_link": "",
+                "phd_thesis_title": "The S-Web Model as the Source of the Slow Solar Wind"
+            },
+            "StepE_ResearchScientist_Form": {
+                "pretty_printed": {"Studies": ["Solar", "Solar Wind", "Neutral Atmosphere"]},
+                "solar_system_area": ["solar", "solar_wind", "neutral_atmosphere"]
+            },
+            "StepF_ResearchScientist_Form": {
+                "pretty_printed": {"Methods": ["Build Models", "Make Instruments"]},
+                "solar_system_area_study_type": ["build_models", "make_instruments"],
+                "solar_system_area_study_type_others": ""
+            },
+            "StepG_ResearchScientist_Form": {
+                "study_topics": [
+                    "arms",
+                    "cmes",
+                    "high_energy",
+                    "in_situ_observations",
+                    "interplanetary_shocks"
+                ],
+                "pretty_printed": {
+                    "Topics": [
+                        "ARMS",
+                        "In Situ Observations"
+                    ]
+                },
+                "study_topics_others": ""
+            },
+            "StepH_ResearchScientist_Form": {
+                "user_extra_occupations": ["policy", "people_management"],
+                "user_extra_occupations_others": ""
+            },
+            "StepI_ResearchScientist_Form": {
+                "tools_used": "Python again",
+                "pretty_printed": {
+                    "Tools": ["Python", "Fortran"],
+                    "Skillset": ["Research Scientist"]
+                },
+                "techniques_used": "Fourier Analysis",
+                "primary_skillset": "Research Scientist",
+                "models_worked_with": "MNIST",
+                "instruments_worked_with": ""
+            }
+          },
+        "is_superuser": false
+      }
+  ]

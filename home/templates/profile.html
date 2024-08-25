@@ -1,0 +1,462 @@
+{% extends 'layouts/base.html' %}
+{% load static %}
+
+{% block content %}
+
+  <div class="row">
+    <div class="col-12 col-xl-9">
+      {% if messages %}
+        <div class="messages">
+          {% for message in messages %}
+            <div {% if message.tags %} class="message-{{ message.tags }}"{% endif %}> {{ message }} </div>
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      <div class="row">
+
+        {% if profile_unclaimed %}
+          <div class="row">
+            <div class="col-12 col-xl-1"></div>
+            <div class="col-12 col-xl-10">
+              <div class="card card-body border-0 shadow mb-2">
+                <h2 class="text-center text-md-center h5">PROFILE UNCLAIMED</h2>
+                <p class="text-center text-md-center">This user has not filled the career survey yet.</p>
+              </div>
+            </div>
+            <div class="col-12 col-xl-1"></div>
+          </div>
+        {% endif %}
+
+        <!-- Column 1 -->
+        <div class="col-12 col-xl-4">
+
+        <!-- At A Glance -->
+          {% if at_a_glance %}
+            <div class="card card-body border-0 shadow mb-2">
+              <h2 class="h5">At A Glance</h2>
+              <p>{{ at_a_glance }}</p>
+            </div>
+          {% endif %}
+
+        <!-- User contributions, as pie chart -->
+          {% if user_contributions != "{}" %}
+            <div class="card card-body-justify-items border-0 shadow mb-2">
+              <h6 class="h6">Types of User Activities</h6>
+              <div id="pie-chart" class="helioweb-pie-chart mb-4"></div>
+              <div id="legend" class="helioweb-pie-chart-legend"></div>
+            </div>
+          {% endif %}
+
+        <!-- Upcoming -->
+          <!-- {% if upcoming %}
+            <div class="card card-body border-0 shadow mb-2">
+              <h2 class="h5">Upcoming</h2>
+              <ul>
+                {% for type, items in upcoming.items %}
+                  <li>{{ type }}
+                    <ul>
+                      {% for item in items %}
+                        <li class="small pe-4">{{ item }}</li>
+                      {% endfor %}
+                    </ul>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+          {% endif %} -->
+
+        <!-- Have Done -->
+          {% if have_done %}
+            <div class="card card-body border-0 shadow mb-2">
+              <h2 class="h5">What I Have Done</h2>
+              <ul>
+                {% for type, items in have_done.items %}
+                  <li>{{ type }}
+                    <ul>
+                      {% for item in items %}
+                        <li class="small pe-4">{{ item }}</li>
+                      {% endfor %}
+                    </ul>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+          {% endif %}
+
+        </div>
+
+        <!-- Column 2 -->
+        <div class="col-12 col-xl-4">
+
+        <!-- Primary Contact For -->
+          {% if primary_contact_for %}
+            <div class="card card-body border-0 shadow mb-2">
+              <h2 class="h5">Primary Contact For</h2>
+              <ul>
+                {% for type, items in primary_contact_for.items %}
+                  <li>{{ type }}
+                    <ul>
+                      {% for item in items %}
+                        <li class="small pe-4">{{ item }}</li>
+                      {% endfor %}
+                    </ul>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+          {% endif %}
+
+        <!-- Affiliations -->
+          {% if affiliations %}
+            <div class="card card-body border-0 shadow mb-2">
+              <h2 class="h5">Affiliations</h2>
+              <ul>
+                {% for type, items in affiliations.items %}
+                  <li>{{ type }}
+                    <ul>
+                      {% for item in items %}
+                        <li class="small pe-4">{{ item }}</li>
+                      {% endfor %}
+                    </ul>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+          {% endif %}
+
+        <!-- Lab Group -->
+          {% if lab_group %}
+            <div class="card card-body border-0 shadow mb-2">
+              <h2 class="h5">Thought Partners</h2>
+              <ul>
+                {% for team_member in lab_group %}
+                  <li class="small pe-4">{{ team_member }}</li>
+                {% endfor %}
+              </ul>
+            </div>
+          {% endif %}
+
+          <!-- Taggers -->
+          {% if taggers %}
+            <div class="card card-body border-0 shadow mb-2">
+              <h2 class="h5">Users That Have Tagged Me</h2>
+              <ul>
+                {% for tagger, cards in taggers.items %}
+                  <li><a class="text-decoration-underline" href="{% url 'profile' user_id=tagger.1 %}">{{ tagger.0 }}</a>
+                    <ul>
+                      {% for card in cards %}
+                        <li>
+                          <a href="#" class="small pe-4 text-decoration-underline" data-bs-toggle="modal" data-bs-target="#modal-htmx"
+                             hx-get="{% url 'fetch_card_data_for_user' user_id=user_id card_id=card.id %}"
+                             hx-trigger="click"
+                             hx-target="#modalContent">
+                            {{ card.label }}
+                          </a>
+                        </li>
+                      {% endfor %}
+                    </ul>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+          {% endif %}
+        </div>
+
+        <!-- Column 3 -->
+        <div class="col-12 col-xl-4">
+
+        <!-- Working On -->
+          {% if working_on %}
+            <div class="card card-body border-0 shadow mb-2">
+              <h2 class="h5">What I'm Currently Working On</h2>
+              <ul>
+                {% for type, items in working_on.items %}
+                  <li>{{ type }}
+                    <ul>
+                      {% for item in items %}
+                        <li class="small pe-4">{{ item }}</li>
+                      {% endfor %}
+                    </ul>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+          {% endif %}
+
+        <!-- Activity log -->
+          {% if activity_log %}
+            <div class="card card-body border-0 shadow mb-2">
+              <h2 class="h5">Activity Log</h2>
+              <ul>
+                {% for activity in activity_log %}
+                  <li>
+                    <a href="#" class="small pe-4 text-decoration-underline" data-bs-toggle="modal" data-bs-target="#modal-htmx" data-card="{{ activity.label }}"
+                       hx-get="{% url 'fetch_card_data_for_user' user_id=user_id card_id=activity.id %}"
+                       hx-trigger="click"
+                       hx-target="#modalContent">
+                      {{ activity.label }}
+                    </a>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+          {% endif %}
+
+        <!-- Cards -->
+          {% if created_cards %}
+            <div class="card card-body border-0 shadow mb-2">
+              <h2 class="h5">Created Cards</h2>
+              <ul>
+                {% for card_type, cards in created_cards.items %}
+                  <li>{{ card_type }}
+                    <ul>
+                      {% for card in cards %}
+                        <li>
+                          <a href="#" class="small pe-4 text-decoration-underline" data-bs-toggle="modal" data-bs-target="#modal-htmx"
+                             hx-get="{% url 'fetch_card_data_for_user' user_id=user_id card_id=card.id %}"
+                             hx-trigger="click"
+                             hx-target="#modalContent">
+                            {{ card.label }}
+                          </a>
+                        </li>
+                      {% endfor %}
+                    </ul>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+          {% endif %}
+          {% if tagged_in_cards %}
+            <div class="card card-body border-0 shadow mb-2">
+              <h2 class="h5">Tagged In</h2>
+              <ul>
+                {% for card_type, cards in tagged_in_cards.items %}
+                  <li>{{ card_type }}
+                    <ul>
+                      {% for card in cards %}
+                        <li>
+                          <a href="#" class="small pe-4 text-decoration-underline" data-bs-toggle="modal" data-bs-target="#modal-htmx"
+                             hx-get="{% url 'fetch_card_data_for_user' user_id=user_id card_id=card.id %}"
+                             hx-trigger="click"
+                             hx-target="#modalContent">
+                            {{ card.label }}
+                          </a>
+                        </li>
+                      {% endfor %}
+                    </ul>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+          {% endif %}
+        </div>
+      </div>
+
+    </div>
+    <div class="col-12 col-xl-3">
+      <div class="row">
+        <div class="card card-body border-0 shadow mb-2">
+
+          <div class="card shadow border-0 text-center p-0 mb-2">
+            <div class="profile-cover rounded-top" data-background="{% static 'assets/img/profile-cover.jpg' %}"></div>
+            <div class="card-body pb-5">
+              <img src="{% static 'assets/img/team/default_avatar.svg' %}" class="avatar-xl rounded-circle mx-auto mt-n7 mb-4"
+                   alt="User Portrait">
+              {% if name %}
+                <h4 class="h3">{{ name }}</h4>
+              {% endif %}
+
+              {% if job_title and employer %}
+                <h5 class="fw-normal">{{ job_title }} @ {{ employer }}</h5>
+              {% elif job_title %}
+                <h5 class="fw-normal">{{ job_title }}</h5>
+              {% endif %}
+
+              {% if workplace %}
+                <p class="text-gray mb-4">{{ workplace }}</p>
+              {% endif %}
+
+              {% if career_stage %}
+                <p class="text-gray mb-4">{{ career_stage }}</p>
+              {% endif %}
+
+              {% if thesis_data.phd_thesis_title %}
+                {% if thesis_data.phd_received_in and thesis_data.phd_institution and thesis_data.phd_discipline %}
+                  <p class="text-gray mb-4"><small><b>PhD:</b> {{ thesis_data.phd_institution }}, {{ thesis_data.phd_received_in }}, {{ thesis_data.phd_discipline }}</small></p>
+                {% elif thesis_data.phd_received_in and thesis_data.phd_institution %}
+                  <p class="text-gray mb-4"><small><b>PhD:</b> {{ thesis_data.phd_received_in }}, {{ thesis_data.phd_institution }}</small></p>
+                {% elif thesis_data.phd_received_in and thesis_data.phd_discipline %}
+                  <p class="text-gray mb-4"><small><b>PhD:</b> {{ thesis_data.phd_received_in }}, {{ thesis_data.phd_discipline }}</small></p>
+                {% elif thesis_data.phd_institution and thesis_data.phd_discipline %}
+                  <p class="text-gray mb-4"><small><b>PhD:</b> {{ thesis_data.phd_institution }}, {{ thesis_data.phd_discipline }}</small></p>
+                {% elif thesis_data.phd_institution %}
+                  <p class="text-gray mb-4"><small><b>PhD:</b> {{ thesis_data.phd_institution }}</small></p>
+                {% elif thesis_data.phd_discipline %}
+                  <p class="text-gray mb-4"><small><b>PhD:</b> {{ thesis_data.phd_discipline }}</small></p>
+                {% elif thesis_data.phd_received_in %}
+                  <p class="text-gray mb-4"><small><b>PhD:</b> {{ thesis_data.phd_received_in }}</small></p>
+                {% endif %}
+
+                <p class="text-gray mb-4"><small><b>Thesis:</b> {{ thesis_data.phd_thesis_title }}</small></p>
+              {% endif %}
+            </div>
+          </div>
+          <!-- User Studies -->
+          {% if studies or methods or topics %}
+            <div class="card card-body border-0 shadow mb-2">
+              <ul>
+                {% if studies %}
+                  <li>Studies
+                    <ul>
+                      {% for study in studies %}
+                        <li class="small pe-4">{{ study }}</li>
+                      {% endfor %}
+                    </ul>
+                  </li>
+                {% endif %}
+                {% if methods %}
+                  <li>Methods
+                    <ul>
+                      {% for method in methods %}
+                        <li class="small pe-4">{{ method }}</li>
+                      {% endfor %}
+                    </ul>
+                  </li>
+                {% endif %}
+                {% if topics %}
+                  <li>Topics
+                    <ul>
+                      {% for topic in topics %}
+                        <li class="small pe-4">{{ topic }}</li>
+                      {% endfor %}
+                    </ul>
+                  </li>
+                {% endif %}
+              </ul>
+            </div>
+          {% endif %}
+
+          <!-- User Groups -->
+          {% if user_groups %}
+            <div class="card card-body border-0 shadow mb-2">
+              <ul>
+                {% for type, items in groups.items %}
+                  <li>{{ type }}
+                    <ul>
+                      {% for item in items %}
+                        <li class="small pe-4">{{ item }}</li>
+                      {% endfor %}
+                    </ul>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+          {% endif %}
+
+                <!-- User Skills -->
+          {% if skillset %}
+            <div class="card card-body border-0 shadow mb-2">
+              <ul>
+                {% for type, items in skillset.items %}
+                  <li>{{ type }}
+                    <ul>
+                      {% for item in items %}
+                        <li class="small pe-4">{{ item }}</li>
+                      {% endfor %}
+                    </ul>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+          {% endif %}
+
+          <!-- Links -->
+          {% if links %}
+            <div class="card card-body border-0 shadow mb-2">
+              <h2 class="h5">Portfolio</h2>
+              <ul>
+                {% for l in links %}
+                  <li><a class="small pe-4 text-decoration-underline" href="{{ l }}">{{ l }}</a></li>
+                {% endfor %}
+              </ul>
+            </div>
+          {% endif %}
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Modal Content -->
+  <div class="modal fade" id="modal-htmx" tabindex="-1" role="dialog" aria-labelledby="modal-form-signup" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content" id="modalContent">
+      <!-- content gets loaded here -->
+      </div>
+    </div>
+  </div>
+<!-- End of Modal Content -->
+{% endblock content %}
+
+{% block scripts %}
+  {{ block.super }}
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Parse user contributions data
+      const contributionsData = JSON.parse('{{ user_contributions | escapejs }}');
+
+      // Update the pie chart with the parsed data
+      updatePieChart(contributionsData);
+
+      function updatePieChart(data) {
+        const chart = document.getElementById('pie-chart');
+        const legend = document.getElementById('legend');
+        let gradient = 'conic-gradient(';
+        let accumulatedPercentage = 0;
+
+        legend.innerHTML = ''; // Clear existing legend entries
+
+        for (const [key, value] of Object.entries(data)) {
+          const color = getRandomColor();
+          gradient += `${color} ${accumulatedPercentage}% ${accumulatedPercentage + value}%, `;
+          accumulatedPercentage += value;
+
+          const legendItem = createLegendItem(key, value, color);
+          legend.appendChild(legendItem);
+        }
+
+        gradient = gradient.slice(0, -2); // Remove the last comma and space
+        chart.style.backgroundImage = gradient + ')';
+      }
+
+      function createLegendItem(key, value, color) {
+        const legendItem = document.createElement('div');
+        legendItem.style.display = 'flex';
+        legendItem.style.alignItems = 'center';
+        legendItem.style.marginBottom = '8px';
+
+        const colorBox = document.createElement('div');
+        colorBox.style.width = '20px';
+        colorBox.style.height = '20px';
+        colorBox.style.backgroundColor = color;
+        colorBox.style.marginRight = '8px';
+
+        const textNode = document.createTextNode(`${key}: ${value}%`);
+        legendItem.appendChild(colorBox);
+        legendItem.appendChild(textNode);
+
+        return legendItem;
+      }
+
+      function getRandomColor() {
+        const letters = '0123456789ABCDEF';
+        let color = '#';
+        for (let i = 0; i < 6; i++) {
+          color += letters[Math.floor(Math.random() * 16)];
+        }
+        return color;
+      }
+    });
+  </script>
+{% endblock scripts %}

@@ -30,9 +30,9 @@ if not SECRET_KEY:
     SECRET_KEY = "django-insecure-7fj^9!%kq%k!_q!s!x!%u5$%f5^#%4f&9i!x^!k!q%k!s!x!%u5$%f5^#%4f&9i"
 
 # Render Deployment Code
-DEBUG = "RENDER" not in os.environ
+DEBUG = os.environ.get("DEBUG", "False") in ["True", True, 1]
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', "0.0.0.0"]
 
 RENDER_EXTERNAL_HOSTNAME = os.environ.get("RENDER_EXTERNAL_HOSTNAME")
 if RENDER_EXTERNAL_HOSTNAME:
