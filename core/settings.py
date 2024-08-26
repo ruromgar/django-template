@@ -115,7 +115,7 @@ else:
             "NAME": "postgres",
             "USER": "postgres",
             "PASSWORD": "5ZP3Z9WW&92P#ZAp",
-            "HOST": "helioweb_db",
+            "HOST": "myapp_db",
             "PORT": "5432",
         }
     }
