@@ -306,10 +306,7 @@ files = [
 [package.dependencies]
 annotated-types = ">=0.4.0"
 pydantic-core = "2.20.1"
-typing-extensions = [
-    {version = ">=4.12.2", markers = "python_version >= \"3.13\""},
-    {version = ">=4.6.1", markers = "python_version < \"3.13\""},
-]
+typing-extensions = {version = ">=4.6.1", markers = "python_version < \"3.13\""}
 
 [package.extras]
 email = ["email-validator (>=2.0.0)"]
@@ -538,5 +535,5 @@ brotli = ["Brotli"]
 
 [metadata]
 lock-version = "2.0"
-python-versions = ">=3.12"
-content-hash = "9505ea7a51f423bcb9d3dc8824dfa3686b9578cfa14f292c347a1f7790ea4312"
+python-versions = "3.12.5"
+content-hash = "4540e6e9bd0df8f215ee0e170800e564e61a033b0fce3bb3280217038dd6d23a"

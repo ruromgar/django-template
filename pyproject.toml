@@ -7,7 +7,7 @@ readme = "README.md"
 packages = [{include = "myapp"}]
 
 [tool.poetry.dependencies]
-python = ">=3.12"
+python = "3.12.5"
 django = "4.1.12"
 python-dotenv = "1.0.0"
 whitenoise = "6.5.0"
