@@ -23,6 +23,6 @@ handler404 = 'volt.views.error_views.error_404'
 
 urlpatterns = [
     path("", include("home.urls")),
-    path("entrary/", admin.site.urls),
+    path("chamber/", admin.site.urls),
     path("", include("volt.urls")),
 ]

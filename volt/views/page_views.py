@@ -1,11 +1,84 @@
 from django.contrib.auth.decorators import login_required
 from django.http import HttpRequest
 from django.shortcuts import redirect
+from django.shortcuts import render
 
 
 @login_required(login_url="/accounts/login/")
 def index(request: HttpRequest):
-    # if request.user.profile.user_info:
-    #     return redirect("profile", user_id=request.user.id)
+    return redirect("profile", user_id=request.user.id)
 
-    return redirect("cards")
+
+# Dashboard
+def dashboard(request):
+    context = {"segment": "dashboard"}
+    return render(request, "pages/dashboard/dashboard.html", context)
+
+
+# Pages
+@login_required(login_url="/accounts/login/")
+def transaction(request):
+    context = {"segment": "transactions"}
+    return render(request, "pages/transactions.html", context)
+
+
+@login_required(login_url="/accounts/login/")
+def settings(request):
+    context = {"segment": "settings"}
+    return render(request, "pages/settings.html", context)
+
+
+# Tables
+@login_required(login_url="/accounts/login/")
+def bs_tables(request):
+    context = {
+        "parent": "tables",
+        "segment": "bs_tables",
+    }
+    return render(request, "pages/tables/bootstrap-tables.html", context)
+
+
+# Components
+@login_required(login_url="/accounts/login/")
+def buttons(request):
+    context = {
+        "parent": "components",
+        "segment": "buttons",
+    }
+    return render(request, "pages/components/buttons.html", context)
+
+
+@login_required(login_url="/accounts/login/")
+def notifications(request):
+    context = {
+        "parent": "components",
+        "segment": "notifications",
+    }
+    return render(request, "pages/components/notifications.html", context)
+
+
+@login_required(login_url="/accounts/login/")
+def forms(request):
+    context = {
+        "parent": "components",
+        "segment": "forms",
+    }
+    return render(request, "pages/components/forms.html", context)
+
+
+@login_required(login_url="/accounts/login/")
+def modals(request):
+    context = {
+        "parent": "components",
+        "segment": "modals",
+    }
+    return render(request, "pages/components/modals.html", context)
+
+
+@login_required(login_url="/accounts/login/")
+def typography(request):
+    context = {
+        "parent": "components",
+        "segment": "typography",
+    }
+    return render(request, "pages/components/typography.html", context)

@@ -1,5 +1,4 @@
 import logging
-import uuid
 
 from django.contrib.auth.models import User
 from django.db import models
@@ -14,19 +13,11 @@ class Profile(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     user = models.OneToOneField(User, on_delete=models.CASCADE)
-    graph_id = models.UUIDField(
-        default=uuid.uuid4,
-        editable=False,
-        unique=True,
-        help_text="User identifier in AllegroGraph",
-    )
     user_info = models.JSONField(null=True, blank=True)
-    pretty_printed_user_info = models.JSONField(null=True, blank=True)
-    stub_cards = models.JSONField(null=True, blank=True)
 
 
 @receiver(post_save, sender=User)
-def update_user_profile(sender, instance, created, **kwargs):
+def update_user_profile(sender, instance: User, created, **kwargs):
     """Create a profile for a user if it does not exist."""
     profile_exists = Profile.objects.filter(user=instance).exists()
     if created and not profile_exists:

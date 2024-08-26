@@ -7,13 +7,10 @@ from django.http import HttpRequest
 from django.shortcuts import redirect
 from django.shortcuts import render
 
-from home.agraph.agraph_models import GraphUser
-from home.agraph.user_manager import UserManager
 from volt.forms.registration_forms import RegistrationForm
 from volt.models import InviteCode
 
 logger = logging.getLogger(__name__)
-user_manager = UserManager()
 
 
 def register_view(request: HttpRequest):
@@ -31,8 +28,6 @@ def register_view(request: HttpRequest):
         - If the form is valid:
             - Set the username to the email address.
             - Save the user to the database.
-            - Refresh user data from the database.
-            - Create a profile in the graph database using the user data.
             - Log the successful account creation.
             - Redirect the user to the login page.
         - If the form is not valid, log the form errors.
@@ -62,7 +57,6 @@ def register_view(request: HttpRequest):
                 form.instance.username = form.cleaned_data.get("email")
                 user: User = form.save()
                 user.refresh_from_db()
-                create_graph_user(user=user)
                 expire_invite_code(invite_code, user)
                 logger.info(f"Account created for user {user.id}")
                 # messages.success(request, "You have been successfully registered. Please log in")
@@ -100,14 +94,6 @@ def invite_code_is_valid(invite_code: str) -> bool:
     except Exception as e:
         logger.info(f"Invite code {invite_code} is invalid: {e}")
         return False
-
-
-def create_graph_user(user: User) -> None:
-    user_manager.create_user(GraphUser(
-        user_id=str(user.profile.graph_id),
-        django_id=str(user.id),
-        email=user.email
-    ))
 
 
 def expire_invite_code(invite_code: str, user: User) -> None:

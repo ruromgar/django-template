@@ -1,6 +1,7 @@
 from django.contrib import admin
 from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
 from django.contrib.auth.models import User
+from django.http import HttpRequest
 
 from volt.models import InviteCode
 from volt.models import Profile
@@ -42,7 +43,7 @@ class InviteCodeAdmin(admin.ModelAdmin):
     search_fields = ('code', 'used_by__username')
     readonly_fields = ('code', 'created_at', 'updated_at', 'created_by', 'used_by')
 
-    def save_model(self, request, obj, form, change):
+    def save_model(self, request: HttpRequest, obj: InviteCode, form, change):
         if not obj.pk:  # This ensures that the `created_by` is set only on creation
             obj.created_by = request.user
         super().save_model(request, obj, form, change)
